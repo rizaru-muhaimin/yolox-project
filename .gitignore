@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+predictions/
+YOLOX_outputs/
+
+models/*.pth
+models/*.pt
+!models/workshop_yolox_s.pth
+
+# Local Python environments and generated artifacts
+.venv/
+venv/
+*.onnx
+
+# Upstream checkout is installed separately; see README.md.
+/YOLOX/

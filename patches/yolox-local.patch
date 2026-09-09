@@ -1,0 +1,35 @@
+diff --git a/requirements.txt b/requirements.txt
+index 80f6d17..ef9a53d 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -15,4 +15,5 @@ tensorboard
+ # pycocotools corresponds to https://github.com/ppwwyyxx/cocoapi
+ pycocotools>=2.0.2
+ onnx>=1.13.0
+-onnx-simplifier==0.4.10
++# Wheel available for Python 3.11 on Windows x64; imported as onnxsim.
++onnxsim==0.4.36
+diff --git a/tools/eval.py b/tools/eval.py
+index 83ad76b..f5de40d 100644
+--- a/tools/eval.py
++++ b/tools/eval.py
+@@ -6,6 +6,7 @@ import argparse
+ import os
+ import random
+ import warnings
++import numpy as np
+ from loguru import logger
+ 
+ import torch
+@@ -164,7 +165,10 @@ def main(exp, args, num_gpu):
+             ckpt_file = args.ckpt
+         logger.info("loading checkpoint from {}".format(ckpt_file))
+         loc = "cuda:{}".format(rank)
+-        ckpt = torch.load(ckpt_file, map_location=loc)
++        # Training checkpoints contain NumPy float64 AP metrics.
++        from numpy.core.multiarray import scalar
++        with torch.serialization.safe_globals([scalar, np.dtype, type(np.dtype("float64"))]):
++            ckpt = torch.load(ckpt_file, map_location=loc, weights_only=True)
+         model.load_state_dict(ckpt["model"])
+         logger.info("loaded checkpoint done.")
+ 
