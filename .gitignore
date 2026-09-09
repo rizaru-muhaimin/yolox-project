@@ -6,6 +6,7 @@ YOLOX_outputs/
 models/*.pth
 models/*.pt
 !models/workshop_yolox_s.pth
+!models/best_ckpt.pth
 
 # Local Python environments and generated artifacts
 .venv/
