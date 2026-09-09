@@ -1,0 +1,14 @@
+tadi ada error 
+1.AssertionError: Could not find "cmake" executable!
+2.PyTorch yang terpasang adalah versi CPU ->
+
+cd D:\repositories\yolox-project\YOLOX
+.\.venv\Scripts\Activate.ps1
+
+python -m pip install --force-reinstall torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu126
+
+
+3.# Wheel available for Python 3.11 on Windows x64; imported as onnxsim.
+onnxsim==0.4.36
+
+4.Command '['where', 'cl']' returned non-zero exit status 1
