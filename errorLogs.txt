@@ -4,6 +4,7 @@ tadi ada error
 
 cd D:\repositories\yolox-project\YOLOX
 .\.venv\Scripts\Activate.ps1
+.venv\Scripts\activate.bat
 
 python -m pip install --force-reinstall torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu126
 
@@ -12,3 +13,5 @@ python -m pip install --force-reinstall torch==2.6.0 torchvision==0.21.0 --index
 onnxsim==0.4.36
 
 4.Command '['where', 'cl']' returned non-zero exit status 1
+cd /d D:\repositories\yolox-project
+code .

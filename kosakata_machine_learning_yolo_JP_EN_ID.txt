@@ -1,0 +1,580 @@
+KOSAKATA MACHINE LEARNING DAN YOLO
+Bahasa Jepang | Cara baca | Bahasa Inggris | Bahasa Indonesia
+Panduan pemula dengan contoh proyek workshop_tools
+
+Cara membaca panduan:
+- JP = bahasa Jepang; baca = hiragana/katakana dan romaji.
+- EN = istilah atau arti bahasa Inggris; ID = arti bahasa Indonesia.
+- Vokal panjang ditulis ou/uu, misalnya hyouka dibaca dengan o panjang.
+- Angka contoh evaluasi di bawah adalah ilustrasi, bukan hasil AP model Anda.
+
+============================================================
+1. MEMAHAMI AP DAN THRESHOLD
+============================================================
+
+AP (Average Precision) menjawab:
+"Seberapa baik model menempatkan deteksi yang benar pada skor tinggi,
+menemukan objek, dan menentukan kotaknya dengan tepat?"
+
+Model memberi setiap kandidat deteksi sebuah skor. Evaluasi mengurutkan
+kandidat berdasarkan skor, lalu membandingkannya dengan anotasi kebenaran.
+AP merangkum hubungan precision dan recall sepanjang urutan tersebut.
+AP bukan rata-rata confidence dan bukan persentase akurasi biasa.
+
+Precision: dari semua deteksi yang dianggap positif, berapa yang benar?
+Recall: dari semua objek sebenarnya, berapa yang ditemukan?
+
+Contoh pada SATU confidence threshold dan SATU IoU threshold:
+Ada 10 objek sebenarnya. Model mengeluarkan 8 deteksi:
+6 benar (TP), 2 salah (FP), dan 4 objek terlewat (FN).
+Precision = TP / (TP + FP) = 6 / 8 = 75%.
+Recall = TP / (TP + FN) = 6 / 10 = 60%.
+Angka ini belum cukup untuk menghitung AP: perlu urutan skor semua deteksi.
+
+Untuk objek biasa, deteksi benar memerlukan kelas yang benar dan kotak yang
+cukup cocok. Satu objek acuan hanya dapat dipasangkan dengan satu deteksi;
+kotak tambahan untuk objek yang sama bisa menjadi false positive.
+Anotasi crowd/ignore memiliki aturan evaluasi khusus.
+
+TIGA THRESHOLD YANG BERBEDA
+
+A. Confidence threshold: menyaring kandidat berdasarkan skor model.
+   Contoh 0.50 = 50%; kandidat dengan skor di bawahnya disaring.
+
+B. IoU threshold evaluasi: menentukan apakah kotak prediksi cukup cocok
+   dengan kotak ground truth. IoU = luas irisan / luas gabungan.
+   AP50 memakai IoU 0.50; angka 50 BUKAN confidence 50%.
+
+C. IoU threshold NMS: membantu menghapus kotak prediksi yang tumpang tindih
+   dan kemungkinan mendeteksi objek yang sama. Perbandingannya antarkotak
+   prediksi, bukan antara prediksi dan ground truth.
+
+EVALUASI AP: GUNAKAN THRESHOLD RENDAH SECARA KONSISTEN
+
+Tujuannya mempertahankan kandidat berskor rendah yang masih mungkin benar,
+sehingga rentang recall tidak terpotong terlalu awal. Evaluator menyusun
+kurva berdasarkan urutan skor; bukan hanya memeriksa satu batas tampilan.
+Threshold rendah tidak menjamin AP naik, dan bukan trik memperbaiki model.
+
+Pada konfigurasi proyek yang diperiksa:
+- exps/workshop_yolox_s.py: test_conf = 0.001, yaitu 0,1%.
+- exps/workshop_yolox_s.py: nmsthre = 0.65.
+- YOLOX/yolox/exp/yolox_base.py memiliki default test_conf = 0.01,
+  tetapi experiment workshop menggantinya menjadi 0.001.
+- Nilai saat runtime tetap dapat berubah jika ada override dari command line.
+
+Bandingkan model dengan dataset, anotasi, ukuran input, NMS, threshold,
+dan protokol evaluasi yang sama. Catat pengaturan tersebut dalam laporan.
+
+APLIKASI KAMERA: THRESHOLD UNTUK MEMILIH APA YANG DITAMPILKAN
+
+Confidence 0.50 boleh digunakan sebagai titik awal tampilan kamera.
+Contoh: skor 0.91 ditampilkan; skor 0.43 tidak ditampilkan.
+Ini adalah keputusan penggunaan aplikasi. Nilainya perlu disesuaikan
+dengan toleransi deteksi salah dan objek yang terlewat pada data validasi.
+Menaikkan threshold biasanya mengurangi deteksi salah sekaligus berisiko
+melewatkan objek benar; precision tidak dijamin naik pada setiap dataset.
+
+Contoh sederhana: terdapat dua obeng dan model mendeteksi keduanya dengan
+kotak benar pada skor 0.90 dan 0.40. Threshold tampilan 0.50 menyembunyikan
+obeng kedua. Evaluasi dengan threshold 0.001 masih dapat menilainya.
+Jika hasil sudah disaring pada 0.50, menurunkan angka threshold saat membaca
+JSON tidak dapat mengembalikan kandidat yang dibuang; perlu inferensi ulang.
+
+Score 0.90 tidak otomatis berarti peluang benar yang terkalibrasi sebesar
+90%. Dalam evaluator YOLOX lokal, score = objectness x skor kelas.
+
+MEMBACA RINGKASAN COCO
+
+- AP / AP@[.50:.95]: rata-rata AP pada 10 ambang IoU, dari 0.50 sampai
+  0.95 dengan langkah 0.05, juga dirata-ratakan atas kelas yang valid.
+- AP50: AP pada IoU 0.50. AP75: AP pada IoU 0.75.
+- AP_small, AP_medium, AP_large: AP untuk kelompok luas objek.
+- AR: Average Recall; ringkasan recall pada pengaturan evaluator.
+- area=all: seluruh ukuran. maxDets=100: batas deteksi evaluator;
+  implementasi COCO standar menerapkannya per gambar per kategori.
+- COCO memakai interpolasi precision pada 101 titik recall.
+- Nilai -1 berarti metrik tidak tersedia, misalnya tidak ada ground truth
+  dalam kelompok ukuran itu; bukan AP negatif.
+
+Contoh baris (ILUSTRASI):
+Average Precision (AP) @[ IoU=0.50:0.95 | area=all | maxDets=100 ] = 0.420
+Artinya AP pada pengaturan tersebut adalah 0.420, atau 42.0 poin pada
+skala 0-100. Jangan menyebutnya "42% objek pasti terdeteksi".
+
+============================================================
+2. DAFTAR KOSAKATA DAN CONTOH PENGGUNAAN
+============================================================
+
+01. Machine learning
+JP: 機械学習
+Baca: きかいがくしゅう / kikai gakushuu
+EN: Machine learning
+ID: Pembelajaran mesin; belajar pola dari data.
+Contoh JP: 機械学習で工具を分類します。
+Baca: Kikai gakushuu de kougu o bunrui shimasu.
+ID: Mengklasifikasikan alat menggunakan machine learning.
+
+02. Deep learning
+JP: 深層学習
+Baca: しんそうがくしゅう / shinsou gakushuu
+EN: Deep learning
+ID: Pembelajaran mendalam dengan jaringan saraf berlapis.
+Contoh JP: 深層学習で画像を処理します。
+Baca: Shinsou gakushuu de gazou o shori shimasu.
+ID: Memproses gambar menggunakan deep learning.
+
+03. Object detection
+JP: 物体検出
+Baca: ぶったいけんしゅつ / buttai kenshutsu
+EN: Object detection
+ID: Mencari lokasi objek dan mengenali kelasnya.
+Contoh JP: 物体検出でペンチを見つけます。
+Baca: Buttai kenshutsu de penchi o mitsukemasu.
+ID: Menemukan tang menggunakan deteksi objek.
+
+04. YOLO
+JP: YOLO（ヨーロー）
+Baca: yooroo; pelafalan dapat bervariasi.
+EN: You Only Look Once
+ID: Keluarga model deteksi objek; YOLOX adalah salah satu pendekatannya.
+Contoh JP: YOLOで工具を検出します。
+Baca: Yooroo de kougu o kenshutsu shimasu.
+ID: Mendeteksi alat menggunakan YOLO.
+
+05. Model
+JP: モデル
+Baca: moderu
+EN: Model
+ID: Sistem yang mempelajari pola untuk menghasilkan prediksi.
+Contoh JP: モデルを評価します。
+Baca: Moderu o hyouka shimasu.
+ID: Mengevaluasi model.
+
+06. Training
+JP: 学習
+Baca: がくしゅう / gakushuu
+EN: Training
+ID: Proses menyesuaikan parameter model dengan data latihan.
+Contoh JP: 学習を開始します。
+Baca: Gakushuu o kaishi shimasu.
+ID: Memulai pelatihan.
+
+07. Inference
+JP: 推論
+Baca: すいろん / suiron
+EN: Inference
+ID: Menggunakan model terlatih untuk menghasilkan prediksi.
+Contoh JP: カメラの画像で推論します。
+Baca: Kamera no gazou de suiron shimasu.
+ID: Menjalankan inferensi pada gambar kamera.
+
+08. Dataset
+JP: データセット
+Baca: deeta setto
+EN: Dataset
+ID: Kumpulan data, misalnya gambar dan anotasinya.
+Contoh JP: データセットを確認します。
+Baca: Deeta setto o kakunin shimasu.
+ID: Memeriksa dataset.
+
+09. Annotation
+JP: アノテーション
+Baca: anoteeshon
+EN: Annotation
+ID: Penandaan objek, misalnya kelas dan kotak pada gambar.
+Contoh JP: アノテーションを修正します。
+Baca: Anoteeshon o shuusei shimasu.
+ID: Memperbaiki anotasi.
+
+10. Ground truth
+JP: 正解データ
+Baca: せいかいデータ / seikai deeta
+EN: Ground truth
+ID: Data acuan kebenaran untuk latihan atau evaluasi.
+Contoh JP: 予測と正解データを比較します。
+Baca: Yosoku to seikai deeta o hikaku shimasu.
+ID: Membandingkan prediksi dengan ground truth.
+
+11. Class
+JP: クラス
+Baca: kurasu
+EN: Class / category
+ID: Jenis objek, seperti obeng, tang, atau kunci pas.
+Contoh JP: クラスは三つあります。
+Baca: Kurasu wa mittsu arimasu.
+ID: Ada tiga kelas.
+
+12. Bounding box
+JP: バウンディングボックス
+Baca: baundingu bokkusu
+EN: Bounding box
+ID: Kotak yang membatasi lokasi objek pada gambar.
+Contoh JP: バウンディングボックスを描画します。
+Baca: Baundingu bokkusu o byouga shimasu.
+ID: Menggambar bounding box.
+
+13. Prediction
+JP: 予測
+Baca: よそく / yosoku
+EN: Prediction
+ID: Hasil perkiraan model.
+Contoh JP: 予測を保存します。
+Baca: Yosoku o hozon shimasu.
+ID: Menyimpan prediksi.
+
+14. Confidence score
+JP: 信頼度スコア
+Baca: しんらいどスコア / shinraido sukoa
+EN: Confidence score
+ID: Skor keyakinan model untuk kandidat deteksi; bukan jaminan benar.
+Contoh JP: 信頼度スコアは0.90です。
+Baca: Shinraido sukoa wa rei ten kyuu zero desu.
+ID: Confidence score-nya 0.90.
+
+15. Threshold
+JP: しきい値（閾値）
+Baca: しきいち / shikiichi; 閾値 juga dibaca いきち / ikichi.
+EN: Threshold
+ID: Nilai batas untuk mengambil keputusan.
+Contoh JP: しきい値を変更します。
+Baca: Shikiichi o henkou shimasu.
+ID: Mengubah threshold.
+
+16. Objectness
+JP: 物体らしさ
+Baca: ぶったいらしさ / buttai rashisa
+EN: Objectness
+ID: Skor yang menunjukkan apakah kandidat mengandung objek.
+Contoh JP: 物体らしさを表すスコアです。
+Baca: Buttai rashisa o arawasu sukoa desu.
+ID: Ini skor yang menunjukkan kemungkinan keberadaan objek.
+
+17. IoU
+JP: IoU（アイオーユー）
+Baca: ai oo yuu
+EN: Intersection over Union
+ID: Luas irisan dua kotak dibagi luas gabungannya; ukuran kecocokan kotak.
+Contoh JP: 二つのボックスのIoUを計算します。
+Baca: Futatsu no bokkusu no ai oo yuu o keisan shimasu.
+ID: Menghitung IoU dua kotak.
+
+18. True positive (TP)
+JP: 真陽性
+Baca: しんようせい / shin yousei
+EN: True positive
+ID: Deteksi yang benar menurut aturan pencocokan evaluasi.
+Contoh JP: この検出は真陽性です。
+Baca: Kono kenshutsu wa shin yousei desu.
+ID: Deteksi ini merupakan true positive.
+
+19. False positive (FP)
+JP: 偽陽性
+Baca: ぎようせい / gi yousei
+EN: False positive
+ID: Deteksi yang tidak cocok dengan objek acuan menurut aturan evaluasi.
+Contoh JP: 偽陽性を減らします。
+Baca: Gi yousei o herashimasu.
+ID: Mengurangi false positive.
+
+20. False negative (FN)
+JP: 偽陰性
+Baca: ぎいんせい / gi insei
+EN: False negative
+ID: Objek acuan yang tidak berhasil ditemukan.
+Contoh JP: 偽陰性が増えました。
+Baca: Gi insei ga fuemashita.
+ID: Jumlah false negative meningkat.
+
+21. Precision
+JP: 適合率
+Baca: てきごうりつ / tekigouritsu
+EN: Precision
+ID: Proporsi deteksi positif yang benar: TP / (TP + FP).
+Contoh JP: 適合率は高いですが、見逃しがあります。
+Baca: Tekigouritsu wa takai desu ga, minogashi ga arimasu.
+ID: Precision tinggi, tetapi masih ada objek yang terlewat.
+
+22. Recall
+JP: 再現率
+Baca: さいげんりつ / saigenritsu
+EN: Recall
+ID: Proporsi objek acuan yang ditemukan: TP / (TP + FN).
+Contoh JP: 再現率を改善します。
+Baca: Saigenritsu o kaizen shimasu.
+ID: Memperbaiki recall.
+
+23. Average Precision (AP)
+JP: 平均適合率
+Baca: へいきんてきごうりつ / heikin tekigouritsu
+EN: Average Precision
+ID: Ringkasan precision sepanjang tingkat recall, berdasarkan urutan skor.
+Contoh JP: 平均適合率でモデルを比較します。
+Baca: Heikin tekigouritsu de moderu o hikaku shimasu.
+ID: Membandingkan model menggunakan AP.
+
+24. Mean Average Precision (mAP)
+JP: 各クラスの平均適合率の平均（penjelasan istilah）
+Baca: かくクラスのへいきんてきごうりつのへいきん
+Romaji: kaku kurasu no heikin tekigouritsu no heikin
+EN: Mean Average Precision
+ID: Rata-rata AP antarkelas; sebutkan juga pengaturan IoU yang digunakan.
+Contoh JP: mAPで全クラスの性能を確認します。
+Baca: Emu ee pii de zen kurasu no seinou o kakunin shimasu.
+ID: Memeriksa kinerja seluruh kelas menggunakan mAP.
+
+25. Precision-recall curve
+JP: 適合率・再現率曲線
+Baca: てきごうりつ・さいげんりつきょくせん
+Romaji: tekigouritsu saigenritsu kyokusen
+EN: Precision-recall curve / PR curve
+ID: Grafik hubungan precision dan recall saat batas skor berubah.
+Contoh JP: PR曲線を確認します。
+Baca: Pii aaru kyokusen o kakunin shimasu.
+ID: Memeriksa kurva PR.
+
+26. Evaluation
+JP: 評価
+Baca: ひょうか / hyouka
+EN: Evaluation
+ID: Pengukuran kinerja model menggunakan aturan dan data tertentu.
+Contoh JP: 同じ条件で評価します。
+Baca: Onaji jouken de hyouka shimasu.
+ID: Mengevaluasi dengan kondisi yang sama.
+
+27. Non-maximum suppression (NMS)
+JP: 非最大値抑制
+Baca: ひさいだいちよくせい / hi saidaichi yokusei
+EN: Non-maximum suppression
+ID: Penyaringan kotak bertumpuk dengan mempertahankan kandidat berskor tinggi.
+Contoh JP: NMSで重複した検出を減らします。
+Baca: Enu emu esu de juufuku shita kenshutsu o herashimasu.
+ID: Mengurangi deteksi duplikat menggunakan NMS.
+
+28. Training data
+JP: 学習データ
+Baca: がくしゅうデータ / gakushuu deeta
+EN: Training data
+ID: Data untuk memperbarui parameter model selama pelatihan.
+Contoh JP: 学習データを増やします。
+Baca: Gakushuu deeta o fuyashimasu.
+ID: Menambah data latihan.
+
+29. Validation data
+JP: 検証データ
+Baca: けんしょうデータ / kenshou deeta
+EN: Validation data
+ID: Data untuk memilih model atau pengaturan selama pengembangan.
+Contoh JP: 検証データでしきい値を選びます。
+Baca: Kenshou deeta de shikiichi o erabimasu.
+ID: Memilih threshold menggunakan data validasi.
+
+30. Test data
+JP: テストデータ
+Baca: tesuto deeta
+EN: Test data
+ID: Data terpisah untuk penilaian akhir setelah pilihan model ditetapkan.
+Contoh JP: 最後にテストデータで評価します。
+Baca: Saigo ni tesuto deeta de hyouka shimasu.
+ID: Terakhir, mengevaluasi menggunakan data uji.
+
+31. Epoch
+JP: エポック
+Baca: epokku
+EN: Epoch
+ID: Satu putaran pelatihan melalui data latihan.
+Contoh JP: エポック数を設定します。
+Baca: Epokku suu o settei shimasu.
+ID: Menentukan jumlah epoch.
+
+32. Batch size
+JP: バッチサイズ
+Baca: bacchi saizu
+EN: Batch size
+ID: Jumlah sampel yang diproses bersama dalam satu batch.
+Contoh JP: バッチサイズを小さくします。
+Baca: Bacchi saizu o chiisaku shimasu.
+ID: Memperkecil batch size.
+
+33. Learning rate
+JP: 学習率
+Baca: がくしゅうりつ / gakushuuritsu
+EN: Learning rate
+ID: Pengaturan besar langkah pembaruan parameter saat latihan.
+Contoh JP: 学習率を下げます。
+Baca: Gakushuuritsu o sagemasu.
+ID: Menurunkan learning rate.
+
+34. Loss function
+JP: 損失関数
+Baca: そんしつかんすう / sonshitsu kansuu
+EN: Loss function
+ID: Fungsi pengukur kesalahan yang dioptimalkan saat latihan.
+Contoh JP: 損失の値を確認します。
+Baca: Sonshitsu no atai o kakunin shimasu.
+ID: Memeriksa nilai loss. Loss lebih rendah tidak menjamin AP lebih tinggi.
+
+35. Overfitting
+JP: 過学習
+Baca: かがくしゅう / kagakushuu
+EN: Overfitting
+ID: Terlalu menyesuaikan data latihan sehingga kurang baik pada data baru.
+Contoh JP: 過学習を防ぎます。
+Baca: Kagakushuu o fusegimasu.
+ID: Mencegah overfitting.
+
+36. Data augmentation
+JP: データ拡張
+Baca: データかくちょう / deeta kakuchou
+EN: Data augmentation
+ID: Membuat variasi data latihan melalui transformasi gambar dan anotasi.
+Contoh JP: データ拡張を使います。
+Baca: Deeta kakuchou o tsukaimasu.
+ID: Menggunakan augmentasi data.
+
+37. Pretrained model
+JP: 学習済みモデル
+Baca: がくしゅうずみモデル / gakushuu zumi moderu
+EN: Pretrained model
+ID: Model yang sudah dilatih sebelumnya.
+Contoh JP: 学習済みモデルを読み込みます。
+Baca: Gakushuu zumi moderu o yomikomimasu.
+ID: Memuat model yang sudah dilatih.
+
+38. Fine-tuning
+JP: ファインチューニング
+Baca: fain chuuningu
+EN: Fine-tuning
+ID: Melatih lanjut model yang sudah dilatih agar sesuai dengan data tugas.
+Contoh JP: 工具の画像でファインチューニングします。
+Baca: Kougu no gazou de fain chuuningu shimasu.
+ID: Melakukan fine-tuning dengan gambar alat.
+
+39. Weights
+JP: 重み
+Baca: おもみ / omomi
+EN: Weights
+ID: Parameter model yang dipelajari saat latihan.
+Contoh JP: 重みを保存します。
+Baca: Omomi o hozon shimasu.
+ID: Menyimpan bobot model.
+
+40. Inference time
+JP: 推論時間
+Baca: すいろんじかん / suiron jikan
+EN: Inference time / inference latency
+ID: Waktu yang diperlukan untuk inferensi sesuai cakupan pengukuran.
+Contoh JP: 推論時間を測定します。
+Baca: Suiron jikan o sokutei shimasu.
+ID: Mengukur waktu inferensi.
+
+41. False detection
+JP: 誤検出
+Baca: ごけんしゅつ / gokenshutsu
+EN: False detection
+ID: Deteksi salah; ungkapan praktis saat membahas hasil kamera.
+Contoh JP: 誤検出が多いです。
+Baca: Gokenshutsu ga ooi desu.
+ID: Ada banyak deteksi salah.
+
+42. Missed detection
+JP: 見逃し
+Baca: みのがし / minogashi
+EN: Missed detection
+ID: Objek yang terlewat atau tidak terdeteksi.
+Contoh JP: 小さい工具の見逃しがあります。
+Baca: Chiisai kougu no minogashi ga arimasu.
+ID: Ada alat kecil yang terlewat.
+
+============================================================
+3. MEMBACA predictions.json PADA PROYEK INI
+============================================================
+
+Contoh nyata dari entri pertama predictions/validation_conf50/predictions.json:
+class_id   : 2
+class_name : screwdriver
+score      : 0.906177
+bbox_xyxy  : [30.52, 259.2, 590.17, 441.46]
+inference_ms: 643.49 (pada tingkat gambar)
+
+Penjelasan field:
+- image: lokasi gambar masukan.
+- output: lokasi gambar hasil visualisasi.
+- inference_ms: waktu inferensi yang dicatat script, dalam milidetik;
+  jangan menganggapnya otomatis sebagai waktu seluruh proses kamera.
+- detections: daftar deteksi pada gambar; satu gambar bisa berisi banyak objek.
+- class_id: indeks kelas model, bukan jumlah objek atau tingkat keyakinan.
+- class_name: nama kelas yang diprediksi.
+- score: skor deteksi; 0.906177 dapat ditampilkan sebagai sekitar 90.62%.
+  Angka ini BUKAN AP atau bukti deteksinya pasti benar.
+- bbox_xyxy: [x_kiri, y_atas, x_kanan, y_bawah], dalam piksel.
+  Titik asal gambar berada di kiri atas; x ke kanan dan y ke bawah.
+
+Ground truth COCO pada instances_val.json menggunakan bbox [x, y, width,
+height], sehingga formatnya berbeda dari bbox_xyxy di hasil prediksi.
+category_id COCO juga harus dipetakan dengan benar ke indeks kelas model;
+jangan berasumsi angka ID keduanya selalu sama.
+
+Nama folder validation_conf50 menunjukkan maksud penggunaan confidence 50%,
+tetapi pengaturan eksekusi yang sebenarnya harus dirujuk dari perintah/log.
+Jika kandidat di bawah 0.50 sudah dibuang, file ini tidak mewakili kumpulan
+prediksi threshold rendah untuk perbandingan AP standar proyek.
+Format JSON ini juga merupakan format keluaran aplikasi, bukan langsung
+format daftar hasil COCO yang memakai image_id, category_id, bbox, score.
+
+Nama alat untuk latihan:
+- 工具 | こうぐ / kougu | tools | alat/perkakas.
+- スパナ | supana | wrench / spanner | kunci pas.
+- ペンチ | penchi | pliers | tang.
+- ドライバー | doraibaa | screwdriver | obeng.
+
+============================================================
+4. KALIMAT SIAP PAKAI UNTUK MENJELASKAN HASIL
+============================================================
+
+A. Evaluasi AP
+JP: APは、検出結果の順位付けと、物体を正しく見つける性能を評価する指標です。
+Baca: Ee pii wa, kenshutsu kekka no jun'izuke to, buttai o tadashiku
+      mitsukeru seinou o hyouka suru shihyou desu.
+EN: AP measures how well detections are ranked and objects are correctly found.
+ID: AP mengukur seberapa baik deteksi diurutkan dan objek ditemukan dengan benar.
+
+B. Threshold rendah untuk evaluasi
+JP: APの評価では、信頼度のしきい値を低く設定し、同じ条件で比較します。
+Baca: Ee pii no hyouka de wa, shinraido no shikiichi o hikuku settei shi,
+      onaji jouken de hikaku shimasu.
+EN: For AP evaluation, we use a low confidence threshold and compare under
+    the same conditions.
+ID: Untuk evaluasi AP, kami memakai confidence threshold rendah dan
+    membandingkan model dengan kondisi yang sama.
+
+C. Tampilan kamera
+JP: カメラ画面には、信頼度スコアが0.5以上の検出結果を表示します。
+Baca: Kamera gamen ni wa, shinraido sukoa ga rei ten go ijou no
+      kenshutsu kekka o hyouji shimasu.
+EN: On the camera screen, we display detections with scores of at least 0.5.
+ID: Pada layar kamera, kami menampilkan deteksi dengan skor minimal 0.5.
+
+D. Menjelaskan AP50
+JP: AP50の50は、信頼度ではなく、IoUのしきい値0.5を意味します。
+Baca: Ee pii gojuu no gojuu wa, shinraido de wa naku,
+      ai oo yuu no shikiichi rei ten go o imi shimasu.
+EN: The 50 in AP50 means an IoU threshold of 0.5, not a confidence threshold.
+ID: Angka 50 pada AP50 berarti ambang IoU 0.5, bukan confidence 50%.
+
+============================================================
+5. SUMBER DAN BATAS PANDUAN
+============================================================
+
+Definisi dan pengaturan COCO:
+https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py
+
+Kode lokal yang diperiksa untuk konteks proyek:
+- exps/workshop_yolox_s.py
+- YOLOX/yolox/exp/yolox_base.py
+- YOLOX/yolox/evaluators/coco_evaluator.py
+- predictions/validation_conf50/predictions.json
+
+Panduan ini menjelaskan konsep dan kosakata, bukan menghitung ulang AP.
+Terjemahan Jepang mencakup istilah teknis umum dan padanan penjelas;
+beberapa tim memakai singkatan Inggris langsung dalam percakapan Jepang.
