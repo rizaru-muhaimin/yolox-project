@@ -15,3 +15,5 @@ onnxsim==0.4.36
 4.Command '['where', 'cl']' returned non-zero exit status 1
 cd /d D:\repositories\yolox-project
 code .
+
+https://chatgpt.com/s/cx_6aa25ec5af088191b68905fe64013617
