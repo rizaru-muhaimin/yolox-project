@@ -3,6 +3,7 @@ tadi ada error
 2.PyTorch yang terpasang adalah versi CPU ->
 
 cd D:\repositories\yolox-project\YOLOX
+cd /d D:\repositories\yolox-project
 .\.venv\Scripts\Activate.ps1
 .venv\Scripts\activate.bat
 
@@ -17,3 +18,4 @@ cd /d D:\repositories\yolox-project
 code .
 
 https://chatgpt.com/s/cx_6aa25ec5af088191b68905fe64013617
+https://chatgpt.com/s/cx_6aaa46d039f4819198151470bf7c438d
