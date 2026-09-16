@@ -1,0 +1,33 @@
+python3 - <<'PY'
+import pyrealsense2 as rs
+
+pipeline = rs.pipeline()
+config = rs.config()
+config.enable_stream(rs.stream.color)
+
+started = False
+
+try:
+    profile = pipeline.start(config)
+    started = True
+    device = profile.get_device()
+    print("Kamera:", device.get_info(rs.camera_info.name))
+
+    for i in range(30):
+        frames = pipeline.wait_for_frames(10000)
+        color = frames.get_color_frame()
+
+        if not color:
+            raise RuntimeError("Frame RGB tidak tersedia")
+
+        print(
+            f"Frame {i + 1}: "
+            f"{color.get_width()} x {color.get_height()}"
+        )
+
+    print("BERHASIL: 30 frame RGB diterima.")
+
+finally:
+    if started:
+        pipeline.stop()
+PY
