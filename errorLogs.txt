@@ -20,3 +20,4 @@ code .
 https://chatgpt.com/s/cx_6aa25ec5af088191b68905fe64013617
 https://chatgpt.com/s/cx_6aaa46d039f4819198151470bf7c438d
 https://chatgpt.com/s/cx_6aace3dcde8481919472fbc0ae600bc8
+https://github.com/surya-pramana/go2_raspi
