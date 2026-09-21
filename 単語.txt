@@ -1,0 +1,49 @@
+Kanji	Cara Baca	Arti (English)	Arti (Indonesia)	Contoh Kalimat Jepang誤判定	ごはんてい	False detection / Misjudgment	Salah deteksi	AIが部品を不良品と誤判定しました。
+通過判定	つうかはんてい	Pass judgment	Dinyatakan lolos	検査の結果、製品は通過判定となりました。
+類似	るいじ	Similarity	Kemiripan	この画像は他の画像と類似しています。
+案件	あんけん	Project / Case	Proyek, kasus	新しいAI開発案件を担当しています。
+手順	てじゅん	Procedure	Prosedur, langkah	作業手順を確認してください。
+高精度	こうせいど	High accuracy	Akurasi tinggi	このモデルは高精度な検出が可能です。
+実績	じっせき	Achievement / Track record	Rekam jejak, hasil	当社には多くの導入実績があります。
+実運用	じつうんよう	Actual operation	Operasi nyata	システムはすでに実運用されています。
+適用	てきよう	Apply / Application	Menerapkan	新しいルールをシステムに適用します。
+達成	たっせい	Achievement	Mencapai	目標精度を達成しました。
+検証	けんしょう	Verification	Verifikasi	学習結果を検証する必要があります。
+過去	かこ	Past	Masa lalu	過去のデータを分析します。
+閾値調整	しきいちちょうせい	Threshold adjustment	Penyesuaian threshold	誤検知を減らすために閾値調整を行いました。
+抑制評価	よくせいひょうか	Suppression evaluation	Evaluasi penekanan	ノイズの抑制評価を実施しました。
+制御	せいぎょ	Control	Kontrol	ロボットを遠隔制御できます。
+見逃す	みのがす	Miss / Overlook	Terlewat	AIが異常を見逃す可能性があります。
+画角	がかく	Viewing angle	Sudut pandang kamera	カメラの画角を広げてください。
+導入	どうにゅう	Introduction / Installation	Implementasi	工場にAIシステムを導入しました。
+申請	しんせい	Application / Request	Pengajuan	使用許可を申請してください。
+算出	さんしゅつ	Calculation	Perhitungan	mAPを自動で算出します。
+継続的	けいぞくてき	Continuous	Berkelanjutan	継続的な改善が必要です。
+水準	すいじゅん	Level / Standard	Tingkat, standar	高い品質水準を維持しています。
+到達	とうたつ	Reach / Attain	Mencapai	精度95％に到達しました。
+統合	とうごう	Integration	Integrasi	複数システムを統合します。
+構築	こうちく	Build / Construct	Membangun	AI開発環境を構築しました。
+板金手配	ばんきんてはい	Sheet metal arrangement/order	Pengadaan plat logam	筐体用の板金手配を進めています。
+既製品	きせいひん	Off-the-shelf product	Produk jadi	既製品を利用してコストを削減します。
+修復	しゅうふく	Repair / Restoration	Memperbaiki, restorasi	破損したデータを修復しました。
+囲む	かこむ	Surround / Enclose	Mengelilingi	対象物を四角で囲む表示をします。
+長方形	ちょうほうけい	Rectangle	Persegi panjang	検出結果を長方形で表示します。
+展示会	てんじかい	Exhibition / Trade show	Pameran	来月の展示会に出展します。
+完了	かんりょう	Completion	Selesai	学習が完了しました。
+仮定	かてい	Assumption	Asumsi	この条件を仮定して計算します。
+存在	そんざい	Existence	Keberadaan	データに異常値が存在します。
+Kosakata yang sangat sering muncul pada proyek AI/YOLO
+誤判定（False Positive）
+見逃す（False Negative）
+閾値調整（Threshold Tuning）
+高精度（High Accuracy）
+検証（Validation/Verification）
+実運用（Production Environment）
+導入（Deployment/Implementation）
+算出（Calculate/Compute）
+統合（Integration）
+構築（Build/System Construction）
+
+枠　わく　Frame / Border / BoxBingkai, kotak, area　AIは検出した対象を枠で表示します。
+早期　そうき　Early stage / EarlyDini, lebih awal　異常を早期に発見することが重要です。
+統括　とうかつ　Supervision / Overall managementMengawasi, mengelola secara keseluruhanプロジェクト全体を統括しています。
