@@ -47,3 +47,5 @@ Kosakata yang sangat sering muncul pada proyek AI/YOLO
 枠　わく　Frame / Border / BoxBingkai, kotak, area　AIは検出した対象を枠で表示します。
 早期　そうき　Early stage / EarlyDini, lebih awal　異常を早期に発見することが重要です。
 統括　とうかつ　Supervision / Overall managementMengawasi, mengelola secara keseluruhanプロジェクト全体を統括しています。
+日程
+派遣
