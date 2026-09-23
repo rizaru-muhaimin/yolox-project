@@ -71,6 +71,7 @@ Kosakata yang sangat sering muncul pada proyek AI/YOLO
 き宣言
 描画
 安全宣言
+拒否
 
 
 Makna lengkapnya:
