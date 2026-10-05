@@ -105,3 +105,9 @@ Jangan menyeberang jalan atau lorong secara diagonal.
 指差確認を実施する。 (ゆびさしかくにん を じっし する)
 
 Lakukan pengecekan dengan metode tunjuk dan sebut (Pointing & Calling).
+
+重大 : じゅうだい　
+渋滞　：じゅうたい
+重体　：しゅくだい
+4足ロボットの充電ステーションが入荷しましたので、イノベーションラボに設置しました
+改善, 改造
