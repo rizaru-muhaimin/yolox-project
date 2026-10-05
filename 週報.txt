@@ -28,7 +28,7 @@ Pagi:
 Melanjutkan pengembangan sistem kamera dan Raspberry Pi sebagai sisi server, kemudian mencoba menghubungkannya dengan sisi klien melalui jaringan LAN dan Wi-Fi.
 
 Siang:
-Menguji sistem kamera dan Raspberry Pi sebagai sisi server serta komunikasi dengan sisi klien melalui jaringan LAN dan Wi-Fi. Pengujian sistem kamera dan Raspberry Pi dilakukan sebanyak empat kali dalam durasi tertentu. Selain itu, pengujian keseluruhan sistem dilakukan sebanyak tiga kali dengan menggabungkan lampu LED, tombol darurat, kamera, dan Raspberry Pi pada robot berkaki empat. Selanjutnya, mengikuti rapat seksi (課会議) dan melaporkan perkembangan pekerjaan.
+Menguji sistem kamera dan Raspberry Pi sebagai sisi server serta komunikasi dengan sisi klien melalui jaringan LAN dan Wi-Fi. Pengujian sistem kamera dan Raspberry Pi dilakukan sebanyak empat kali dalam durasi tertentu. Selain itu, pengujian keseluruhan sistem dilakukan sebanyak tiga kali dengan menggabungkan lampu LED, tombol darurat, kamera, dan Raspberry Pi pada 4足歩行ロボット Selanjutnya, mengikuti rapat seksi (課会議) dan melaporkan perkembangan pekerjaan.
 
 Malam:
 Mengikuti kelas percakapan bahasa Jepang (kaiwa). Kelas diawali dengan saling bertukar kabar, kemudian dilanjutkan dengan penyampaian pidato bertema perkembangan teknologi yang semakin menghilangkan berbagai batasan. Dalam kelas tersebut, saya juga menyampaikan pendapat bahwa kemajuan teknologi saat ini berpotensi menyebabkan beberapa jenis pekerjaan menghilang. Pada sesi terakhir, saya menanyakan penggunaan kata 「展開」.
