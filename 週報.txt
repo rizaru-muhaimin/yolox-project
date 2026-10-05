@@ -1,0 +1,40 @@
+9/28 
+pagi: melanjutkan pengembangan aplikasi pembuatan AI model berbasis dektop dan menyelesaikan error yang sebelumnya terjadi di aplikasi dektop yang berjalan di laptop remote
+Siang: melakukan pengujian fitur data training di remote dektop dan menepukan error dan segera memperbaiki errornya. setelah jam 3 sore dilanjutkan proses analiais kenapa camera di sistem rassbery tikda mau berjalan dan mencari penyebab pastinya. sampai pulang kerja belum ditemukan kenapa penyebabnya dan akan dilanjutkan besok. 
+
+ 9/29
+
+pagi: Melajutkan pengembangan aplikasi pembuatan AI Model berbasis dektop. Melaporkan perkembangan aplikasi ke ketua tim dan mengikuti rapat laporan progress.
+
+siang: Melanjutkan pengembangan sistem rassbery dan menemukan penyebab error yang terjadi di hari sebelumnya. ada data kedaaman yang diminta oleh system rassbery tapi belum disiapkan oleh kamera sehingga menyebabkan error sehingga data tersebut perlu di inisiasi terlebih dahulu.
+
+9/30:
+
+pagi: Pagi ini langsung fokus ke pengembangan sistem kamera dan rassbery sebagai sebuah server side kemudian mencoba melakukan komunikasi dengan client side dengan jaringan LAN dan wifi.
+
+siang: Melanjutkan pengebangan sebeumnya dan menemukan keanehan sistem dan perlu mecari penyebabnya. Sistem yang telah dibangun sekarang tidak stabill setelah percobaan pengujian ke 4, sisi server kadang berhenti tanpa penyebab yang pasti. sehingga di akhri perlu memperbaki aluar prgrogeam yang telah dibuat. setelah diskusi dengan senpai, biputuskan untuk menghapus funsi pebacaan kedalaman kamera secara lansung, karena yang peyebab errorny data kedalaman tersebut kadang tidak ke baca. sebagai gantinya digunakan metode lain untuk membaca kedalaman kamera.
+
+10/1:
+Pagi：Melanjutkan pengembangan sistem kamera dan rassbery sebagai sebuah server side kemudian mencoba melakukan komunikasi dengan client side dengan jaringan LAN dan wifi.
+
+siang: Melakukan Pengujian terhatap  sistem kamera dan rassbery sebagai sebuah server side kemudian mencoba melakukan komunikasi dengan client side dengan jaringan LAN dan wifi. Pengujian dilakukan 4 kali pada sistem kamera dan rasberry selama waktu tertentu dan 3 kali pengujian secara keseluruhan sebagai satu kesatuan sistem, LED light , emergy btn, Kamera, resbeery di lingkungan 4足Robot.
+Mengikuti 課会議　dan melaporkan progress.
+
+Malam:Mengakukan kelas Kaiwa 。Diawalai saling tukar kabar dan dilanjut dengan penyampaian speach dengan tema perkembangan teknologi yang semakin menghilangkan batas. dalam kelas ini saya juga bercerita dengan kemajuat teknologi yang sekarang, ada kemungkinan beberapa jenis kerjaan akan hilang. Di sesi akhir saya menanyakan pengugunaan kata 展開。
+
+
+10/2:
+Pagi: menyampaikan hasil pengembangan kamera dan rassbery sebagai yang sudah selesai kemudian diserahkan ke senpai untuk dilakuan pengembangan tahap selanjutnya dan melanjutkan pengembangan aplikasi pembuatan AI model berbasis dektop. Mengikuti rapat disvisi bulanan 
+
+siang: melanjutkan pengembangan aplikasi pembuatan AI model berbasis dektop dan mengikuti kegiatan hinan kanreng
+
+
+rencana munggu depan:
+Meanjutkan pengmbangan aplikasi pembuatan AI model berbasis dektop
+
+kesan:
+mingguu ini sangat sibuk terutaman untuk pengembangan sistem kamera dan rassbery sebagai sebuah server side kemudian mencoba melakukan komunikasi dengan client side dengan jaringan LAN dan wifi. Awa awal banyak tantangan dan error yang dtemukan karena belum ada senpai yang pernah implementasi sistem ini dan saya belum ada pengalaman tapi setelah berjuang dengan sungguh sungguh alhirnya bisa diselaikan. 
+
+hokano:
+sejauh ini tidak ada masalah, saya juga berusaha untuk melakukan olahraga setipa minggu 3 kali dan lari 3km seminggu sekali untuk menjaga kesehatan. terimakasih.
+
