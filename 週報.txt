@@ -1,40 +1,51 @@
-9/28 
-pagi: melanjutkan pengembangan aplikasi pembuatan AI model berbasis dektop dan menyelesaikan error yang sebelumnya terjadi di aplikasi dektop yang berjalan di laptop remote
-Siang: melakukan pengujian fitur data training di remote dektop dan menepukan error dan segera memperbaiki errornya. setelah jam 3 sore dilanjutkan proses analiais kenapa camera di sistem rassbery tikda mau berjalan dan mencari penyebab pastinya. sampai pulang kerja belum ditemukan kenapa penyebabnya dan akan dilanjutkan besok. 
+9/28
 
- 9/29
+Pagi:
+Melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI serta memperbaiki kesalahan yang sebelumnya terjadi pada aplikasi yang dijalankan di laptop jarak jauh.
 
-pagi: Melajutkan pengembangan aplikasi pembuatan AI Model berbasis dektop. Melaporkan perkembangan aplikasi ke ketua tim dan mengikuti rapat laporan progress.
+Siang:
+Menguji fitur data pelatihan pada desktop jarak jauh. Dalam pengujian tersebut ditemukan sebuah kesalahan yang kemudian segera diperbaiki. Setelah pukul 15.00, kegiatan dilanjutkan dengan menganalisis penyebab kamera pada sistem Raspberry Pi tidak dapat beroperasi. Hingga waktu pulang kerja, penyebabnya belum ditemukan sehingga analisis akan dilanjutkan pada hari berikutnya.
 
-siang: Melanjutkan pengembangan sistem rassbery dan menemukan penyebab error yang terjadi di hari sebelumnya. ada data kedaaman yang diminta oleh system rassbery tapi belum disiapkan oleh kamera sehingga menyebabkan error sehingga data tersebut perlu di inisiasi terlebih dahulu.
+9/29
 
-9/30:
+Pagi:
+Melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI. Selain itu, melaporkan perkembangan aplikasi kepada ketua tim dan mengikuti rapat laporan kemajuan.
 
-pagi: Pagi ini langsung fokus ke pengembangan sistem kamera dan rassbery sebagai sebuah server side kemudian mencoba melakukan komunikasi dengan client side dengan jaringan LAN dan wifi.
+Siang:
+Melanjutkan pengembangan sistem Raspberry Pi dan menemukan penyebab kesalahan yang terjadi pada hari sebelumnya. Sistem Raspberry Pi meminta data kedalaman yang belum disiapkan oleh kamera sehingga terjadi kesalahan. Oleh karena itu, data tersebut perlu diinisialisasi terlebih dahulu.
 
-siang: Melanjutkan pengebangan sebeumnya dan menemukan keanehan sistem dan perlu mecari penyebabnya. Sistem yang telah dibangun sekarang tidak stabill setelah percobaan pengujian ke 4, sisi server kadang berhenti tanpa penyebab yang pasti. sehingga di akhri perlu memperbaki aluar prgrogeam yang telah dibuat. setelah diskusi dengan senpai, biputuskan untuk menghapus funsi pebacaan kedalaman kamera secara lansung, karena yang peyebab errorny data kedalaman tersebut kadang tidak ke baca. sebagai gantinya digunakan metode lain untuk membaca kedalaman kamera.
+9/30
 
-10/1:
-Pagi：Melanjutkan pengembangan sistem kamera dan rassbery sebagai sebuah server side kemudian mencoba melakukan komunikasi dengan client side dengan jaringan LAN dan wifi.
+Pagi:
+Berfokus pada pengembangan sistem kamera dan Raspberry Pi sebagai sisi server, kemudian mencoba menghubungkannya dengan sisi klien melalui jaringan LAN dan Wi-Fi.
 
-siang: Melakukan Pengujian terhatap  sistem kamera dan rassbery sebagai sebuah server side kemudian mencoba melakukan komunikasi dengan client side dengan jaringan LAN dan wifi. Pengujian dilakukan 4 kali pada sistem kamera dan rasberry selama waktu tertentu dan 3 kali pengujian secara keseluruhan sebagai satu kesatuan sistem, LED light , emergy btn, Kamera, resbeery di lingkungan 4足Robot.
-Mengikuti 課会議　dan melaporkan progress.
+Siang:
+Melanjutkan pengembangan sebelumnya dan menemukan kondisi yang tidak normal pada sistem sehingga penyebabnya perlu dianalisis. Sistem yang telah dibangun masih belum stabil. Setelah pengujian keempat, sisi server terkadang berhenti tanpa penyebab yang jelas. Oleh karena itu, alur program yang telah dibuat perlu diperbaiki. Setelah berdiskusi dengan senior, diputuskan untuk menghapus fungsi pembacaan data kedalaman kamera secara langsung karena data tersebut terkadang tidak dapat terbaca dan menjadi penyebab kesalahan. Sebagai gantinya, digunakan metode lain untuk membaca data kedalaman kamera.
 
-Malam:Mengakukan kelas Kaiwa 。Diawalai saling tukar kabar dan dilanjut dengan penyampaian speach dengan tema perkembangan teknologi yang semakin menghilangkan batas. dalam kelas ini saya juga bercerita dengan kemajuat teknologi yang sekarang, ada kemungkinan beberapa jenis kerjaan akan hilang. Di sesi akhir saya menanyakan pengugunaan kata 展開。
+10/1
 
+Pagi:
+Melanjutkan pengembangan sistem kamera dan Raspberry Pi sebagai sisi server, kemudian mencoba menghubungkannya dengan sisi klien melalui jaringan LAN dan Wi-Fi.
 
-10/2:
-Pagi: menyampaikan hasil pengembangan kamera dan rassbery sebagai yang sudah selesai kemudian diserahkan ke senpai untuk dilakuan pengembangan tahap selanjutnya dan melanjutkan pengembangan aplikasi pembuatan AI model berbasis dektop. Mengikuti rapat disvisi bulanan 
+Siang:
+Menguji sistem kamera dan Raspberry Pi sebagai sisi server serta komunikasi dengan sisi klien melalui jaringan LAN dan Wi-Fi. Pengujian sistem kamera dan Raspberry Pi dilakukan sebanyak empat kali dalam durasi tertentu. Selain itu, pengujian keseluruhan sistem dilakukan sebanyak tiga kali dengan menggabungkan lampu LED, tombol darurat, kamera, dan Raspberry Pi pada robot berkaki empat. Selanjutnya, mengikuti rapat seksi (課会議) dan melaporkan perkembangan pekerjaan.
 
-siang: melanjutkan pengembangan aplikasi pembuatan AI model berbasis dektop dan mengikuti kegiatan hinan kanreng
+Malam:
+Mengikuti kelas percakapan bahasa Jepang (kaiwa). Kelas diawali dengan saling bertukar kabar, kemudian dilanjutkan dengan penyampaian pidato bertema perkembangan teknologi yang semakin menghilangkan berbagai batasan. Dalam kelas tersebut, saya juga menyampaikan pendapat bahwa kemajuan teknologi saat ini berpotensi menyebabkan beberapa jenis pekerjaan menghilang. Pada sesi terakhir, saya menanyakan penggunaan kata 「展開」.
 
+10/2
 
-rencana munggu depan:
-Meanjutkan pengmbangan aplikasi pembuatan AI model berbasis dektop
+Pagi:
+Menyampaikan bahwa pengembangan sistem kamera dan Raspberry Pi telah selesai, kemudian menyerahkan hasilnya kepada senior untuk pengembangan tahap berikutnya. Setelah itu, melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI dan mengikuti rapat bulanan divisi.
 
-kesan:
-mingguu ini sangat sibuk terutaman untuk pengembangan sistem kamera dan rassbery sebagai sebuah server side kemudian mencoba melakukan komunikasi dengan client side dengan jaringan LAN dan wifi. Awa awal banyak tantangan dan error yang dtemukan karena belum ada senpai yang pernah implementasi sistem ini dan saya belum ada pengalaman tapi setelah berjuang dengan sungguh sungguh alhirnya bisa diselaikan. 
+Siang:
+Melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI dan mengikuti kegiatan latihan evakuasi (避難訓練).
 
-hokano:
-sejauh ini tidak ada masalah, saya juga berusaha untuk melakukan olahraga setipa minggu 3 kali dan lari 3km seminggu sekali untuk menjaga kesehatan. terimakasih.
+Rencana minggu depan:
+Melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI.
 
+Kesan:
+Minggu ini terasa sangat sibuk, terutama karena pengembangan sistem kamera dan Raspberry Pi sebagai sisi server serta upaya menghubungkannya dengan sisi klien melalui jaringan LAN dan Wi-Fi. Pada awalnya, terdapat banyak tantangan dan kesalahan karena belum ada senior yang pernah mengimplementasikan sistem ini, sedangkan saya juga belum memiliki pengalaman dalam bidang tersebut. Namun, berkat usaha yang sungguh-sungguh, pengembangan sistem tersebut akhirnya dapat diselesaikan.
+
+Hal lain:
+Sejauh ini tidak ada masalah. Saya juga berusaha menjaga kesehatan dengan berolahraga tiga kali seminggu dan berlari sejauh tiga kilometer sekali seminggu. Terima kasih.
