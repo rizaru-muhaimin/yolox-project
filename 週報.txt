@@ -1,51 +1,33 @@
-9/28
-
+10/5
 Pagi:
-Melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI serta memperbaiki kesalahan yang sebelumnya terjadi pada aplikasi yang dijalankan di laptop jarak jauh.
-
+Melanjutkan pengembangan aplikasi desktop untuk membuat model AI. Secara keseluruhan, aplikasi sudah dapat digunakan dengan baik untuk melatih data dan menghasilkan model AI.
 Siang:
-Menguji fitur data pelatihan pada desktop jarak jauh. Dalam pengujian tersebut ditemukan sebuah kesalahan yang kemudian segera diperbaiki. Setelah pukul 15.00, kegiatan dilanjutkan dengan menganalisis penyebab kamera pada sistem Raspberry Pi tidak dapat beroperasi. Hingga waktu pulang kerja, penyebabnya belum ditemukan sehingga analisis akan dilanjutkan pada hari berikutnya.
-
-9/29
-
+Mencoba memasang versi terbaru aplikasi pembuat model AI pada laptop jarak jauh. Dalam proses tersebut ditemukan beberapa kesalahan. Salah satunya adalah GPU laptop tidak terdeteksi di dalam lingkungan aplikasi sehingga perlu dikonfigurasi secara manual. Kondisi ini cukup jarang terjadi karena proses pemasangan pada beberapa laptop lainnya dapat berjalan dengan baik.
+10/6
 Pagi:
-Melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI. Selain itu, melaporkan perkembangan aplikasi kepada ketua tim dan mengikuti rapat laporan kemajuan.
-
+Melanjutkan pengembangan aplikasi desktop untuk membuat model AI serta mengikuti rapat kemajuan pekerjaan bersama tim.
 Siang:
-Melanjutkan pengembangan sistem Raspberry Pi dan menemukan penyebab kesalahan yang terjadi pada hari sebelumnya. Sistem Raspberry Pi meminta data kedalaman yang belum disiapkan oleh kamera sehingga terjadi kesalahan. Oleh karena itu, data tersebut perlu diinisialisasi terlebih dahulu.
-
-9/30
-
+Melanjutkan pengembangan aplikasi desktop untuk membuat model AI dan mempelajari metode anotasi data yang baik menggunakan aplikasi Roboflow.
+10/7
 Pagi:
-Berfokus pada pengembangan sistem kamera dan Raspberry Pi sebagai sisi server, kemudian mencoba menghubungkannya dengan sisi klien melalui jaringan LAN dan Wi-Fi.
-
+Mengumpulkan dataset untuk kategori sarung tangan kerja (gunte). Dataset tersebut akan digunakan untuk melatih robot agar dapat mengenali karakteristik sarung tangan kerja.
 Siang:
-Melanjutkan pengembangan sebelumnya dan menemukan kondisi yang tidak normal pada sistem sehingga penyebabnya perlu dianalisis. Sistem yang telah dibangun masih belum stabil. Setelah pengujian keempat, sisi server terkadang berhenti tanpa penyebab yang jelas. Oleh karena itu, alur program yang telah dibuat perlu diperbaiki. Setelah berdiskusi dengan senior, diputuskan untuk menghapus fungsi pembacaan data kedalaman kamera secara langsung karena data tersebut terkadang tidak dapat terbaca dan menjadi penyebab kesalahan. Sebagai gantinya, digunakan metode lain untuk membaca data kedalaman kamera.
-
-10/1
-
+Mempelajari dataset yang telah dikumpulkan, menentukan batasan dan kriteria sarung tangan kerja yang akan dikenali oleh robot, kemudian mulai melakukan anotasi data.
+10/8
 Pagi:
-Melanjutkan pengembangan sistem kamera dan Raspberry Pi sebagai sisi server, kemudian mencoba menghubungkannya dengan sisi klien melalui jaringan LAN dan Wi-Fi.
-
+Melakukan anotasi terhadap dataset sarung tangan kerja yang akan digunakan oleh sistem Raspberry Pi, kamera, dan robot. Dataset tersebut akan digunakan agar robot dapat mengenali sarung tangan kerja. Saat ini, terdapat lebih dari 1.000 gambar yang direncanakan untuk dianotasi.
 Siang:
-Menguji sistem kamera dan Raspberry Pi sebagai sisi server serta komunikasi dengan sisi klien melalui jaringan LAN dan Wi-Fi. Pengujian sistem kamera dan Raspberry Pi dilakukan sebanyak empat kali dalam durasi tertentu. Selain itu, pengujian keseluruhan sistem dilakukan sebanyak tiga kali dengan menggabungkan lampu LED, tombol darurat, kamera, dan Raspberry Pi pada 4足歩行ロボット Selanjutnya, mengikuti rapat seksi (課会議) dan melaporkan perkembangan pekerjaan.
-
-Malam:
-Mengikuti kelas percakapan bahasa Jepang (kaiwa). Kelas diawali dengan saling bertukar kabar, kemudian dilanjutkan dengan penyampaian pidato bertema perkembangan teknologi yang semakin menghilangkan berbagai batasan. Dalam kelas tersebut, saya juga menyampaikan pendapat bahwa kemajuan teknologi saat ini berpotensi menyebabkan beberapa jenis pekerjaan menghilang. Pada sesi terakhir, saya menanyakan penggunaan kata 「展開」.
-
-10/2
-
+Melanjutkan anotasi dataset sarung tangan kerja. Setelah itu, mencoba menggunakan sebagian data untuk melatih model melalui aplikasi desktop pembuat model AI yang telah saya kembangkan. Model yang dihasilkan menunjukkan hasil yang cukup baik dan mampu mendeteksi sarung tangan kerja dalam video yang diambil menggunakan kamera robot.
+Selain itu, mengikuti rapat seksi (課会議) dan menyampaikan perkembangan serta pekerjaan yang telah dilakukan selama satu minggu, termasuk proses pengumpulan dan anotasi dataset.
+10/9
 Pagi:
-Menyampaikan bahwa pengembangan sistem kamera dan Raspberry Pi telah selesai, kemudian menyerahkan hasilnya kepada senior untuk pengembangan tahap berikutnya. Setelah itu, melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI dan mengikuti rapat bulanan divisi.
-
+Mengumpulkan dataset untuk kategori tangan dan tisu. Data tersebut diperlukan untuk melatih robot agar dapat membedakan benda-benda yang memiliki kemiripan dengan sarung tangan kerja.
 Siang:
-Melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI dan mengikuti kegiatan latihan evakuasi (避難訓練).
-
-Rencana minggu depan:
-Melanjutkan pengembangan aplikasi desktop untuk pembuatan model AI.
-
-Kesan:
-Minggu ini terasa sangat sibuk, terutama karena pengembangan sistem kamera dan Raspberry Pi sebagai sisi server serta upaya menghubungkannya dengan sisi klien melalui jaringan LAN dan Wi-Fi. Pada awalnya, terdapat banyak tantangan dan kesalahan karena belum ada senior yang pernah mengimplementasikan sistem ini, sedangkan saya juga belum memiliki pengalaman dalam bidang tersebut. Namun, berkat usaha yang sungguh-sungguh, pengembangan sistem tersebut akhirnya dapat diselesaikan.
-
-Hal lain:
-Sejauh ini tidak ada masalah. Saya juga berusaha menjaga kesehatan dengan berolahraga tiga kali seminggu dan berlari sejauh tiga kilometer sekali seminggu. Terima kasih.
+Mempelajari dataset yang telah dikumpulkan, menentukan batasan dan kriteria tangan serta tisu yang akan dikenali oleh robot, kemudian mulai melakukan anotasi data. Setelah pukul 15.00, membantu senior memasang Raspberry Pi dan kamera pada robot untuk sementara waktu.
+所感（Kesan）
+Pekerjaan minggu ini berjalan dengan lancar. Karena model AI yang saya buat nantinya akan digunakan dalam sistem robot, saya perlu mempelajari cara mengumpulkan dan melakukan anotasi dataset dengan baik sesuai dengan kebutuhan sistem.
+Ini merupakan pengalaman pertama saya dalam mengumpulkan dan menganotasi dataset. Saya menyadari bahwa untuk menghasilkan dataset yang berkualitas, diperlukan pembelajaran melalui pengalaman langsung. Saya juga sempat berdiskusi dengan beberapa senior. Namun, belum banyak senior yang memiliki pengalaman langsung dalam pengumpulan dan anotasi dataset. Sebagian besar hanya mengetahui proses umum dalam pembuatan model AI.
+来週の予定（Rencana minggu depan）
+Melanjutkan proses anotasi data dan pelatihan dataset untuk menghasilkan model AI.
+その他（私生活についてや悩みなど）
+Minggu ini tidak ada hal khusus yang ingin saya sampaikan. Semuanya berjalan dengan baik.
