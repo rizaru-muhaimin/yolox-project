@@ -31,3 +31,41 @@ Ini merupakan pengalaman pertama saya dalam mengumpulkan dan menganotasi dataset
 Melanjutkan proses anotasi data dan pelatihan dataset untuk menghasilkan model AI.
 その他（私生活についてや悩みなど）
 Minggu ini tidak ada hal khusus yang ingin saya sampaikan. Semuanya berjalan dengan baik.
+
+
+
+
+10/12:
+pagi: Menajutkan proses anotation dataset tangan manusia dan gunte
+siang: Menajutkan proses anotation dataset tangan manusia dan gunte
+
+10/13:
+pagi: Menajutkan proses anotation dataset tangan manusia dan gunte dan mengikuti rapat porgres bersama tim
+siang:Menajutkan proses anotation dataset tangan manusia dan gunte
+
+10/14
+pagi: Menajutkan proses anotation dataset tangan manusia dan gunte
+siang: Menajutkan proses anotation dataset tangan manusia dan gunte. dan mencba melakukan training data tapi gagal karena memory kompeter laptop penuh di tengah jalan kerena ada tim lain yang menggunakan untuk manjalankan aplikasi lain.
+
+10/15
+pagi: Melakukan anotasi data guntei yang aan digunakan oleh sistem rasber, kamera dan robot untuk nantinya bisa mengenali guntei. Sementara ini data yang akan di anotasi sekira 1000 lebih data gambar guntei. 
+siang: Menajutkan proses anotation dataset tangan manusia dan gunte dan mencoba melakukan training dataset di laptop remot dam melakukan evaluasi terhadap hasil apakah sudah sesuai dan bisa memisahkan data tangan dan gunte. utuk data test gambar didapatkan haril yang cukup memuaskan tapi ketika di pakai dengan cara realtime ada beberapa kondisi yang belum terdetesksi dan perlu ditambahan dataset yang belum terdetekasi.
+
+10/16
+pagi: Menalukan pengumpulan dataset untuk type tangan, gunte, tissue karena ada beberapa kondisi yang belum terdetekasi di karema saat menajalankan realtime dan Menajutkan proses anotation dataset
+siang: Menajutkan proses anotation dataset.
+
+
+所感:  Minggu ini pekerjaan berjalan dengan lancar dan fokus untuk anotasi data, melakukan traing data, teting dan evaluasi terhadap model yang telah dibuat.
+
+
+来週の予定: melanjutkan anotasi data dan training dataset dan mengevaluasi model yang telah dibua
+
+その他（私生活についてや悩みなど）: minggu ini tidak ada ha yang ingin saya ceritakan semuanya baik baik saja. 
+
+搬送,搬入, 進入, 侵入, 新入
+
+
+
+
+
