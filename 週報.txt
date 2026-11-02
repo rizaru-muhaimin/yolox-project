@@ -1,225 +1,99 @@
-10/5
+10/26
 Pagi:
-Melanjutkan pengembangan aplikasi desktop untuk membuat model AI. Secara keseluruhan, aplikasi sudah dapat digunakan dengan baik untuk melatih data dan menghasilkan model AI.
+Melanjutkan penanganan error serta proses pembuatan file EXE dan installer untuk aplikasi desktop.
+
 Siang:
-Mencoba memasang versi terbaru aplikasi pembuat model AI pada laptop jarak jauh. Dalam proses tersebut ditemukan beberapa kesalahan. Salah satunya adalah GPU laptop tidak terdeteksi di dalam lingkungan aplikasi sehingga perlu dikonfigurasi secara manual. Kondisi ini cukup jarang terjadi karena proses pemasangan pada beberapa laptop lainnya dapat berjalan dengan baik.
-10/6
+Melanjutkan pekerjaan sebelumnya dan menambahkan beberapa library yang belum tersedia pada aplikasi.
+10/27
 Pagi:
-Melanjutkan pengembangan aplikasi desktop untuk membuat model AI serta mengikuti rapat kemajuan pekerjaan bersama tim.
+Membuat model AI final untuk robot menggunakan data terbaru. Setelah itu, menguji library kamera pada aplikasi desktop yang telah diubah menjadi file EXE. Selain itu, mengikuti rapat kemajuan pekerjaan bersama tim.
+
 Siang:
-Melanjutkan pengembangan aplikasi desktop untuk membuat model AI dan mempelajari metode anotasi data yang baik menggunakan aplikasi Roboflow.
-10/7
+Melanjutkan pekerjaan sebelumnya.
+10/28
 Pagi:
-Mengumpulkan dataset untuk kategori sarung tangan kerja (gunte). Dataset tersebut akan digunakan untuk melatih robot agar dapat mengenali karakteristik sarung tangan kerja.
+Membuat versi terbaru file EXE dengan menambahkan modul pembuatan model AI yang sebelumnya belum disertakan. Setelah itu, melakukan pengujian terhadap versi terbaru aplikasi. Selain itu, mengikuti pengujian robot dan model AI yang saya buat di pabrik sebagai persiapan untuk pameran (tenjikai).
+
 Siang:
-Mempelajari dataset yang telah dikumpulkan, menentukan batasan dan kriteria sarung tangan kerja yang akan dikenali oleh robot, kemudian mulai melakukan anotasi data.
-10/8
+Melanjutkan pekerjaan sebelumnya dan melakukan pengujian terhadap kamera tele. Setelah itu, mulai melakukan penelitian tentang pembuatan fitur anotasi pada aplikasi desktop.
+
+Selain itu, mempelajari cara agar aplikasi dapat diperbarui ke versi terbaru. Aplikasi perlu segera digunakan meskipun beberapa fitur masih dalam tahap pengembangan. Diharapkan pengguna dapat segera menerima informasi ketika versi terbaru aplikasi telah tersedia.
+10/29
 Pagi:
-Melakukan anotasi terhadap dataset sarung tangan kerja yang akan digunakan oleh sistem Raspberry Pi, kamera, dan robot. Dataset tersebut akan digunakan agar robot dapat mengenali sarung tangan kerja. Saat ini, terdapat lebih dari 1.000 gambar yang direncanakan untuk dianotasi.
+Melanjutkan penelitian sebelumnya mengenai desain fitur anotasi dan sistem pembaruan aplikasi.
+
 Siang:
-Melanjutkan anotasi dataset sarung tangan kerja. Setelah itu, mencoba menggunakan sebagian data untuk melatih model melalui aplikasi desktop pembuat model AI yang telah saya kembangkan. Model yang dihasilkan menunjukkan hasil yang cukup baik dan mampu mendeteksi sarung tangan kerja dalam video yang diambil menggunakan kamera robot.
-Selain itu, mengikuti rapat seksi (課会議) dan menyampaikan perkembangan serta pekerjaan yang telah dilakukan selama satu minggu, termasuk proses pengumpulan dan anotasi dataset.
-10/9
+Mengikuti rapat seksi (課会議) dan melaporkan pekerjaan yang telah dilakukan selama minggu ini. Setelah itu, mengikuti pemaparan informasi divisi di pabrik hingga waktu pulang kerja.
+
+Malam:
+Mengikuti kelas percakapan bahasa Jepang (kaiwa). Dalam kelas tersebut, saya menyampaikan pidato, saling bertukar kabar, serta berdiskusi mengenai perkembangan AI dan cara AI melakukan proses berpikir.
+10/30
 Pagi:
-Mengumpulkan dataset untuk kategori tangan dan tisu. Data tersebut diperlukan untuk melatih robot agar dapat membedakan benda-benda yang memiliki kemiripan dengan sarung tangan kerja.
+Membuat kembali file EXE karena terdapat perbaikan fitur dari senior. Selain itu, melanjutkan penelitian mengenai fitur pembaruan aplikasi dan mulai membuat desain antarmuka pengguna untuk fitur anotasi.
+
 Siang:
-Mempelajari dataset yang telah dikumpulkan, menentukan batasan dan kriteria tangan serta tisu yang akan dikenali oleh robot, kemudian mulai melakukan anotasi data. Setelah pukul 15.00, membantu senior memasang Raspberry Pi dan kamera pada robot untuk sementara waktu.
+Membuat sistem otomatisasi untuk menghasilkan file EXE. Dengan sistem tersebut, proses pembuatan file EXE dapat dilakukan melalui web tanpa harus mengakses laptop jarak jauh secara langsung.
 所感（Kesan）
-Pekerjaan minggu ini berjalan dengan lancar. Karena model AI yang saya buat nantinya akan digunakan dalam sistem robot, saya perlu mempelajari cara mengumpulkan dan melakukan anotasi dataset dengan baik sesuai dengan kebutuhan sistem.
-Ini merupakan pengalaman pertama saya dalam mengumpulkan dan menganotasi dataset. Saya menyadari bahwa untuk menghasilkan dataset yang berkualitas, diperlukan pembelajaran melalui pengalaman langsung. Saya juga sempat berdiskusi dengan beberapa senior. Namun, belum banyak senior yang memiliki pengalaman langsung dalam pengumpulan dan anotasi dataset. Sebagian besar hanya mengetahui proses umum dalam pembuatan model AI.
+Minggu ini terasa melelahkan dan cukup menguras tenaga karena terdapat banyak interaksi dan diskusi dengan senior. Meskipun demikian, berbagai pekerjaan dapat dilanjutkan dengan baik.
 来週の予定（Rencana minggu depan）
-Melanjutkan proses anotasi data dan pelatihan dataset untuk menghasilkan model AI.
+Melanjutkan pembuatan desain antarmuka pengguna untuk fitur anotasi dan berfokus pada pelaksanaan pameran perusahaan (tenjikai).
 その他（私生活についてや悩みなど）
-Minggu ini tidak ada hal khusus yang ingin saya sampaikan. Semuanya berjalan dengan baik.
+Minggu ini saya merasa sangat lelah. Oleh karena itu, saya menggunakan waktu pada hari Sabtu dan Minggu untuk beristirahat dan memulihkan energi. Selain itu, semuanya berjalan dengan baik.
 
 
+10/26
 
+午前：
+ デスクトップアプリ向けのEXEファイルおよびインストーラー作成作業を進めるとともに、発生しているエラーの対応を継続しました。
 
-10/12:
-pagi: Menajutkan proses anotation dataset tangan manusia dan gunte
-siang: Menajutkan proses anotation dataset tangan manusia dan gunte
+午後：
+ 前日の作業を継続し、アプリケーションに不足していたライブラリの追加対応を行いました。
 
-10/13:
-pagi: Menajutkan proses anotation dataset tangan manusia dan gunte dan mengikuti rapat porgres bersama tim
-siang:Menajutkan proses anotation dataset tangan manusia dan gunte
+10/27
 
-10/14
-pagi: Menajutkan proses anotation dataset tangan manusia dan gunte
-siang: Menajutkan proses anotation dataset tangan manusia dan gunte. dan mencba melakukan training data tapi gagal karena memory kompeter laptop penuh di tengah jalan kerena ada tim lain yang menggunakan untuk manjalankan aplikasi lain.
+午前：
+ 最新データを使用してロボット用の最終AIモデルを作成しました。その後、EXE化したデスクトップアプリ上でカメラライブラリの動作確認を行いました。また、チームメンバーとの進捗会議に参加しました。
 
-10/15
-pagi: Melakukan anotasi data guntei yang aan digunakan oleh sistem rasber, kamera dan robot untuk nantinya bisa mengenali guntei. Sementara ini data yang akan di anotasi sekira 1000 lebih data gambar guntei. 
-siang: Menajutkan proses anotation dataset tangan manusia dan gunte dan mencoba melakukan training dataset di laptop remot dam melakukan evaluasi terhadap hasil apakah sudah sesuai dan bisa memisahkan data tangan dan gunte. utuk data test gambar didapatkan haril yang cukup memuaskan tapi ketika di pakai dengan cara realtime ada beberapa kondisi yang belum terdetesksi dan perlu ditambahan dataset yang belum terdetekasi.
+午後：
+ 前日の作業を継続しました。
 
-10/16
-pagi: Menalukan pengumpulan dataset untuk type tangan, gunte, tissue karena ada beberapa kondisi yang belum terdetekasi di karema saat menajalankan realtime dan Menajutkan proses anotation dataset
-siang: Menajutkan proses anotation dataset.
+10/28
 
+午前：
+ これまで含まれていなかったAIモデル作成モジュールを追加し、最新版のEXEファイルを作成しました。その後、最新版アプリケーションの動作確認を実施しました。また、展示会に向けた準備として、工場にてロボットおよび自作AIモデルのテストに参加しました。
 
-所感:  Minggu ini pekerjaan berjalan dengan lancar dan fokus untuk anotasi data, melakukan traing data, teting dan evaluasi terhadap model yang telah dibuat.
+午後：
+ 前日の作業を継続するとともに、Teleカメラの動作確認を実施しました。その後、デスクトップアプリ向けアノテーション機能の開発に関する調査を開始しました。
 
+また、アプリケーションのアップデート機能についても調査を進めました。現在開発中の機能が一部残っているものの、アプリを早期に利用開始できるようにし、新バージョン公開時にはユーザーへ速やかに通知できる仕組みについて検討しました。
 
-来週の予定: melanjutkan anotasi data dan training dataset dan mengevaluasi model yang telah dibua
+10/29
 
-その他（私生活についてや悩みなど）: minggu ini tidak ada ha yang ingin saya ceritakan semuanya baik baik saja. 
+午前：
+ アノテーション機能の設計およびアプリケーション更新システムに関する調査を継続しました。
 
-搬送,搬入, 進入, 侵入, 新入
+午後：
+ 課会議に参加し、今週実施した業務内容について報告しました。その後、終業時間まで工場での部門説明会に参加しました。
 
+夜：
+ 日本語会話教室に参加しました。教室ではスピーチや近況報告を行ったほか、AIの発展やAIの思考プロセスについて意見交換を行いました。
 
-10/12
-午前
+10/30
 
-手および軍手のデータセットに対するアノテーション作業を継続しました。
+午前：
+ 先輩による機能修正があったため、EXEファイルを再作成しました。また、アプリケーションのアップデート機能に関する調査を継続し、アノテーション機能のUI設計を開始しました。
 
-午後
-
-手および軍手のデータセットに対するアノテーション作業を継続しました。
-
-10/13
-午前
-
-手および軍手のデータセットに対するアノテーション作業を継続しました。また、チームの進捗会議に参加しました。
-
-午後
-
-手および軍手のデータセットに対するアノテーション作業を継続しました。
-
-10/14
-午前
-
-手および軍手のデータセットに対するアノテーション作業を継続しました。
-
-午後
-
-手および軍手のデータセットに対するアノテーション作業を継続しました。その後、データセットの学習を実施しましたが、途中で処理が停止しました。原因を調査したところ、ノートPCのメモリ容量が不足していることが分かりました。他チームも同じノートPCで別のアプリケーションを同時に使用していたことが原因と考えられます。
-
-10/15
-午前
-
-Raspberry Pi、カメラおよびロボットシステムで使用する軍手データセットのアノテーション作業を行いました。このデータセットは、ロボットが軍手を認識できるようにするための学習用データとして使用します。現在、1,000枚以上の画像をアノテーションする予定です。
-
-午後
-
-手および軍手のデータセットに対するアノテーション作業を継続しました。その後、リモート環境のノートPCを使用してデータセットの学習を行い、生成されたモデルの評価を実施しました。評価では、モデルが手と軍手を正しく識別できるかを確認しました。
-
-画像データを用いた評価では良好な結果が得られましたが、リアルタイム検出では一部の条件下で十分に認識できないケースが確認されました。そのため、それらの条件を含む追加のデータセットを収集し、学習データを拡充する必要があると判断しました。
-
-夜
-
-日本語会話教室に参加しました。授業は普段どおり楽しい雰囲気で進みました。今回のテーマの一つは、結婚相手の選び方についてでした。
-
-10/16
-午前
-
-手、軍手、およびティッシュのデータセット収集を行いました。リアルタイム検出時に認識できていない条件があったため、追加のデータセットが必要となりました。その後、収集したデータのアノテーション作業を継続しました。
-
-午後
-
-データセットのアノテーション作業を継続しました。
+午後：
+ EXEファイルを自動生成するためのシステムを構築しました。このシステムにより、リモートでノートPCへ直接接続することなく、Web上からEXEファイルを作成できるようになりました。
 
 所感
 
-今週の業務は全体的に順調に進みました。主な作業として、データセットのアノテーションおよび学習を進めるとともに、作成したモデルの評価・検証を行いました。
-
-評価の結果、画像データに対しては良好な認識精度を確認できましたが、リアルタイム環境では改善が必要な条件も見つかりました。そのため、実際の運用環境を想定したデータ収集の重要性を改めて認識しました。
+今週は先輩方との打ち合わせや相談の機会が多く、やや疲れを感じる一週間でした。しかし、その中でも各業務を順調に進めることができました。
 
 来週の予定
 
-データセットのアノテーションおよび学習を継続し、作成したモデルの評価と精度向上に取り組む予定です。
+アノテーション機能のUI設計を継続するとともに、展示会対応を中心に業務を進める予定です。
 
 その他（私生活についてや悩みなど）
 
-今週は特に報告事項や相談したいことはありません。業務・私生活ともに問題なく過ごすことができました。
-
-You said:
-0/19 Pagi: Melanjutkan proses anotasi data menggunakan Roboflow. Siang: Melanjutkan proses anotasi data menggunakan Roboflow. 10/20 Pagi: Melanjutkan proses anotasi data dan mengikuti rapat kemajuan pekerjaan bersama tim. Siang: Melanjutkan proses anotasi data. Jumlah gambar yang dianotasi sebanyak 2.000 gambar, dengan jumlah objek yang dianotasi sekitar 3.300 objek. Seluruh proses anotasi berhasil diselesaikan pada hari ini. Pelatihan data direncanakan akan dimulai pada hari berikutnya. 10/21 Pagi: Mempersiapkan data yang akan digunakan sebagai data pelatihan. Setelah itu, memulai proses pelatihan menggunakan aplikasi desktop pembuat model AI YOLOX yang sebelumnya telah saya kembangkan. Karena jumlah data mencapai sekitar 2.000 gambar, proses pelatihan diperkirakan membutuhkan waktu sekitar 30 jam. Siang: Memantau aplikasi selama proses pelatihan dataset. Selain itu, mulai mengubah aplikasi pembuat model AI dari lingkungan pengembangan menjadi berkas berformat EXE agar dapat dijalankan pada berbagai laptop. Proses tersebut memerlukan beberapa konfigurasi teknis dan terkadang menimbulkan error, seperti ketidaksesuaian lingkungan serta versi library yang digunakan. 10/22 Pagi: Memantau aplikasi selama proses pelatihan dataset dan melanjutkan perbaikan error yang terjadi saat membuat berkas EXE. Penyebab error tidak selalu dapat diketahui secara langsung dari kode program karena biasanya baru muncul ketika proses pembuatan berkas EXE sedang berlangsung. Oleh karena itu, proses ini membutuhkan waktu yang cukup lama. Ketika error muncul, penyebabnya perlu dianalisis dan diperbaiki. Setelah itu, proses pembuatan berkas EXE harus diulangi dari awal. Siang: Melanjutkan proses pembuatan berkas EXE dan mengikuti rapat seksi (課会議). Setelah rapat selesai, memeriksa model AI yang telah selesai dibuat. Model tersebut kemudian dikirimkan ke sistem robot untuk melalui proses integrasi. Malam: Kelas percakapan bahasa Jepang diliburkan karena pengajar memiliki acara keluarga dan akan dilanjutkan pada minggu berikutnya. Sebagai gantinya, saya belajar kosakata (kotoba) dan tata bahasa (bunpō) secara mandiri. 10/23 Pagi: Melanjutkan proses pembuatan berkas EXE, menganalisis setiap error yang ditemukan, dan melakukan perbaikan. Siang: Melanjutkan proses pembuatan berkas EXE serta menganalisis dan memperbaiki setiap error yang muncul. Rencana minggu depan Mencoba memasang aplikasi desktop pembuat model AI pada berbagai laptop untuk menemukan kemungkinan error lainnya. Selain itu, melanjutkan pengembangan fitur berikutnya. Kesan Minggu ini terasa cukup melelahkan karena saya harus menghadapi banyak error selama proses pengembangan. Ketika mengalami kesulitan dan tidak mengetahui tindakan yang harus dilakukan, saya beberapa kali meminta saran kepada senior. Untuk menemukan penyebab dan solusi dari suatu error, diperlukan waktu dan kondisi yang tenang agar dapat memikirkan berbagai kemungkinan dengan baik. Minggu ini terdapat dua error besar yang tidak dapat diselesaikan hanya dengan mengandalkan jawaban dari AI. Saya perlu menganalisisnya dengan tenang dan memahami proses yang terjadi dari sudut pandang komputer. Hal tersebut sangat penting untuk menemukan solusi yang tepat. Pada akhir minggu ini, seluruh error yang ditemukan telah berhasil diselesaikan. Hal lain Sejauh ini tidak ada masalah. Saya berusaha menjaga kesehatan fisik dengan berolahraga tiga kali seminggu dan berlari sejauh tiga kilometer sekali seminggu. Kondisi mental saya juga baik. Jika memiliki waktu luang, saya menyempatkan diri untuk minum kopi di kafe sebagai salah satu cara untuk beristirahat dan menghilangkan rasa lelah.
-Copilot said:
-
-Berikut versi bahasa Jepang yang自然で分かりやすく、実習週報向けの表現です。
-
-10/19
-午前
-
-Roboflowを使用したデータアノテーション作業を継続しました。
-
-午後
-
-Roboflowを使用したデータアノテーション作業を継続しました。
-
-10/20
-午前
-
-データアノテーション作業を継続するとともに、チームの進捗会議に参加しました。
-
-午後
-
-データアノテーション作業を継続しました。アノテーションした画像数は約2,000枚、アノテーションした対象物は約3,300個でした。本日、すべてのアノテーション作業を完了することができました。データの学習は翌日から開始する予定です。
-
-10/21
-午前
-
-学習用データの準備を行いました。その後、以前開発したYOLOXベースのAIモデル作成用デスクトップアプリケーションを使用して学習を開始しました。データ数が約2,000枚であったため、学習には約30時間かかる見込みでした。
-
-午後
-
-データセットの学習状況を監視しました。また、AIモデル作成アプリケーションを開発環境からEXE形式へ変換し、さまざまなノートPCで実行できるようにする作業を開始しました。
-
-この作業では複数の技術的な設定が必要であり、環境の違いやライブラリのバージョンの不一致などによるエラーが発生することがありました。
-
-10/22
-午前
-
-データセットの学習状況を監視するとともに、EXEファイル作成時に発生するエラーへの対応を継続しました。
-
-これらのエラーはソースコードを見るだけでは原因が分からない場合が多く、EXE化の処理中にはじめて発生することがありました。そのため、原因の調査や修正に時間を要しました。また、エラーを修正した後はEXE作成プロセスを最初からやり直す必要がありました。
-
-午後
-
-EXEファイル作成作業を継続するとともに、課会議に参加しました。会議終了後、学習が完了したAIモデルを確認しました。その後、モデルをロボットシステムへ引き渡し、統合作業（インテグレーション）を実施しました。
-
-夜
-
-日本語会話教室は、講師のご家庭の都合により休講となりました。そのため、代わりに語彙や文法の学習を自主的に行いました。
-
-10/23
-午前
-
-EXEファイル作成作業を継続し、発生したエラーの分析および修正を行いました。
-
-午後
-
-EXEファイル作成作業を継続しながら、発生したエラーの分析と修正を進めました。
-
-来週の予定
-
-AIモデル作成用デスクトップアプリケーションを複数のノートPCへ導入し、新たなエラーが発生しないか確認する予定です。また、次の機能の開発も継続して進める予定です。
-
-所感
-
-今週は開発中に多くのエラーへ対応する必要があり、非常に大変な一週間でした。問題に直面し、自分だけでは解決方法が分からない場合には、先輩社員へ相談しながら作業を進めました。
-
-エラーの原因や解決策を見つけるためには、落ち着いて状況を整理し、さまざまな可能性を検討することが重要であると感じました。今週発生した大きな問題の中には、AIが提示する回答だけでは解決できないものもありました。そのため、コンピュータ内部でどのような処理が行われているのかを理解しながら、一つひとつ原因を分析しました。
-
-最終的には、発生していたすべての主要なエラーを解決することができ、大きな達成感を得ることができました。
-
-その他（私生活についてや悩みなど）
-
-現在のところ、特に問題はありません。健康維持のために週3回程度の運動を行い、週に1回は約3kmのランニングを続けています。また、気分転換や疲労回復のために、時間があるときはカフェでコーヒーを飲みながらリラックスするようにしています。
-
-心身ともに良好な状態を維持できています。
-
-所感
-
-今週の業務は全体的に順調に進みました。主な作業として、データセットのアノテーションおよび学習を進めるとともに、作成したモデルの評価・検証を行いました。
-
-評価の結果、画像データに対しては良好な認識精度を確認できましたが、リアルタイム環境では改善が必要な条件も見つかりました。そのため、実際の運用環境を想定したデータ収集の重要性を改めて認識しました。
-
-来週の予定
-
-データセットのアノテーションおよび学習を継続し、作成したモデルの評価と精度向上に取り組む予定です。
-
-その他（私生活についてや悩みなど）
-
-今週は特に報告事項や相談したいことはありません。業務・私生活ともに問題なく過ごすことができました。
-
-
+今週は非常に疲れを感じていたため、土日はゆっくり休養し、体力の回復に努めました。そのほかは特に問題なく、順調に過ごすことができました。
