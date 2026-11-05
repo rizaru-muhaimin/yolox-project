@@ -1,25 +1,137 @@
-① 人生に目標を持つことの大切さ
-Pentingnya memiliki tujuan hidup
-皆さん、こんにちは。
-今日は、「人生に目標を持つことの大切さ」についてお話しします。
-皆さんは、将来何をしたいか、どんな人になりたいか、考えたことがありますか。すでに明確な目標を持っている人もいれば、まだ見つけている途中の人もいると思います。
-私は、人生における目標は、旅行するときの地図のようなものだと思います。地図がなくても歩くことはできます。しかし、どこへ向かっているのか分からなければ、途中で迷ったり、時間を無駄にしたりしてしまいます。目標があれば、自分が今何をするべきなのか、どのような努力が必要なのかが見えてきます。
-もちろん、目標を持っていても、すべてが計画どおりに進むとは限りません。失敗することもありますし、自信を失うこともあります。しかし、失敗は終わりではありません。なぜ失敗したのかを考え、もう一度挑戦することで、私たちは成長できます。大切なのは、目標に向かって一歩ずつ進み続けることです。
-また、目標は大きなものでなくてもいいと思います。「毎日日本語を30分勉強する」「新しいことに挑戦する」「周りの人を大切にする」など、小さな目標にも大きな意味があります。小さな成功を積み重ねることで、自信が生まれ、さらに大きな目標にも挑戦できるようになります。
-そして、目標は途中で変わってもかまいません。さまざまな経験をする中で、考え方や夢が変わるのは自然なことです。重要なのは、他人が決めた道ではなく、自分自身が納得できる道を選ぶことです。
-人生には限られた時間しかありません。その時間を意味のあるものにするために、自分が本当に大切にしたいことを考え、目標を持って行動することが必要です。
-私も自分の目標を忘れず、失敗を恐れずに、一歩ずつ前へ進んでいきたいと思います。
-ご清聴ありがとうございました。
-② テクノロジーが国境をなくす時代
-Era teknologi menghilangkan batas—yang menguasai teknologi akan unggul
-皆さん、こんにちは。
-今日は、「テクノロジーが国境をなくす時代」についてお話しします。
-現在、テクノロジーは驚くほどの速さで発展しています。インターネットやスマートフォン、人工知能などによって、私たちの生活は以前よりも便利になりました。
-昔は、外国の人と話したり、海外の情報を手に入れたりすることは簡単ではありませんでした。しかし今では、インターネットを使えば、世界中の人とすぐにつながることができます。オンライン授業を受けたり、外国の会社で働いたり、自分の商品を世界中に販売したりすることも可能です。
-つまり、テクノロジーの発展によって、国や場所、言語などの壁が、少しずつ見えなくなっているのです。私たちは自分の国だけでなく、世界中の人々と競争し、同時に協力する時代を生きています。
-このような時代では、テクノロジーを上手に使える人が大きなチャンスを得ることができます。例えば、人工知能を活用すれば、仕事を効率化したり、新しいアイデアを生み出したりできます。一方で、テクノロジーの変化を恐れて何もしなければ、時代に取り残されてしまう可能性があります。
-しかし、「テクノロジーを支配する」ということは、ただ機械の使い方を知ることではありません。大切なのは、テクノロジーに使われるのではなく、目的を持って正しく使うことです。情報が正しいかどうかを判断する力や、安全に利用するための知識、そして人の気持ちを考える心も必要です。
-テクノロジーには、仕事を奪ったり、個人情報を危険にさらしたりする可能性もあります。だからこそ、私たちは便利さだけを見るのではなく、そのリスクについても学ばなければなりません。
-これからの時代に必要なのは、変化を恐れず、学び続ける姿勢です。新しい技術に興味を持ち、実際に使いながら、自分の能力を高めていくことが重要です。
-未来の勝者は、テクノロジーに支配される人ではなく、テクノロジーを理解し、責任を持って活用できる人だと思います。私も学ぶことをやめず、テクノロジーを使って新しい可能性を広げていきたいです。
-ご清聴ありがとうございました。
+Lest me introduce the smart factory department
+Role and mision:
+Bringing Futaba’s Factory of the Future Concept to Life .
+Implementing the Tools and Systems Needed and Used on the Manufacturing Floor
+Vision（ Medium-Term Goals ）:
+
+Achieving a Smart Factory by 2030
+Mass-Production Automation from Parts Receiving to Shipment
+
+※ Reorganized as a department in January 2024 to accelerate development
+
+・既存技術(市販)を活用した革新ライン検証と導入 Validation and implementation of innovative production lines using commercially available technologies
+
+・新技術の旗振り役 Leads the adoption of new technologies
+・物流生技機能 Oversees logistics operations
+
+・システム ソフトの内製化と導入 Develops system software in-house and implements it
+
+The Process Innovation Section validates and implements innovative production lines using commercially available technologies. 
+The Systems Development Section develops systems and software in-house and implements them. 
+The Implementation Promotion Section then takes the lead in introducing the new technologies developed by these two sections into mass production.
+
+
+The Smart Factory Concept
+今までの人に頼った作業からより、新技術導入により安全で人にやさしい工場を目指します。
+By introducing new technologies, we aim to reduce our reliance on manual work and create a safer, more worker-friendly factory.
+目標値としては
+・災害ゼロ、多様な人材開発、直行１/２、スペース１/２、リードタイム１/２、コスト３０％低減です。
+Our targets are to achieve zero workplace accidents, enable a diverse workforce to thrive, cut direct labor, production space, and lead time in half, and reduce costs by 30%.
+
+フタバ全体で取り組んでいるスマートファクトリー技術一覧マップです。
+オレンジがトライ検証中、ブルーが開発完了、緑が量産導入できている技術となっております。
+
+This map provides an overview of the smart factory technologies being developed across Futaba. Technologies shown in orange are currently undergoing trials and validation, those in blue have completed development, and those in green have already been implemented in mass production.
+
+こちらはその中でも工程革新課の取り組みとなります。
+・プレス製品の自動積み込み
+・インパネリンフォースの自動隙間検知
+・溶接の電流値と電圧からスパッタ検知をするシステム
+・無人ナットつけのシステム
+が主な取り組みとなります。
+
+Here are some of the key initiatives undertaken by the Process Innovation Section. These include automated loading of stamped parts, automatic gap detection for instrument panel reinforcements, a system that detects welding spatter using current and voltage data, and an automated nut installation system.
+
+プレス製品のピッキングは製品速度も速く難しい技術ですが
+２Dカメラ、３Dカメラを駆使して部品整列とパレット詰めを作業として分けることによって自働化をトライ中となります。
+Picking stamped parts is technically challenging because they move at high speed. 
+To automate this process, we use both 2D and 3D cameras and divide the operation into two separate steps: aligning the parts and loading them onto pallets. We are currently testing this automated solution.
+
+３台のロボットを強調制御し溶接することによって治具レスの取り組みです。
+工場には補給部品のためにたくさんの段替え治具が保管されていますが、この技術が完成すればスペースに大きな影響を与えます。
+This initiative aims to achieve fixtureless welding through the coordinated control of three robots. Our factories currently store a large number of changeover fixtures for service parts. Once this technology is fully developed, it could significantly reduce the amount of storage space required.
+
+
+インパネリンフォースのレーザー溶接はしっかり溶接できているか？
+１本数百打点の人でシムチェック行っております。
+加工点でレーザー光の貫通＋３Dスキャンで板隙を検査することによって溶着されていることを検査しているシステムです
+
+
+こちらは無人ナットラインとなります。
+部品の入れ替えはAMRで行っています。
+バラ積みされている製品を３Dスキャンでロボットがぶつからないように自動ピックし、ナット溶接後、完成品PLTに入れます。
+付加価値が少ないナット付けをロボットに行わせることによって無人化してます。
+This is our unmanned nut installation line. Parts are transported and replaced by an AMR. A 3D scanner detects the randomly stacked parts, allowing the robot to pick them automatically while avoiding collisions. After the nuts are welded, the finished parts are placed on a pallet. By assigning the low-value-added nut installation process to robots, we have achieved unmanned operation.
+
+
+
+その他としてTP箱のパレタイズ、でパレタイズの自働化
+３DCADの半自動設備設計等にも取り組んいます。
+We are also working on automating the palletizing and depalletizing of TP boxes, as well as semi-automated equipment design using 3D CAD.
+
+
+続いてはシステム開発課の取り組みです。
+システム開発課ではAMR、画像検査、ヒューマノイド等を取り組んでいます。
+Next, let’s look at the initiatives of the Systems Development Section, which focuses on technologies such as AMRs, visual inspection, and humanoid robots.
+
+AMRでは自社で簡単なWCS開発も取り組んでいます。
+移動指示・・・プログラミング（Phython）
+Webアプリで見えるか（Java Script)
+データベース（MySQL）を手の内化し、工場にも展開することによってIT人材の育成にもつなげていきたい
+
+
+For AMR operations, we are also developing a simple WCS in-house. We use Python to program movement commands, JavaScript to create a web application for visualization, and MySQL for database management. By building these capabilities in-house and deploying the system across our factories, we also aim to develop our IT talent.
+
+
+
+続いて画像検査になります。
+TMC開発のHIRAKITや社内で開発したFutAiCaの取り組みを行っています。
+詳細は後から田中から報告しますが、
+画像検査では外部の環境の整備や学習のさせ方がどんなソフトを使うとしても重要となります。
+開発したアプリで結果を出すだけでなく、学んでほしいという思いもあります。
+
+Next, I’d like to discuss visual inspection. We are working with HIRAKIT, developed by TMC, as well as FutAiCa, which was developed in-house. Tanaka will provide more details later. In visual inspection, properly setting up the inspection environment and training the AI model are essential, regardless of which software is used. Our goal is not only to achieve results with the application we developed, but also to help users understand and learn the inspection process.
+
+
+こちらは幸田工場でのホットスタンプ製品を自動でPLTまで積みこんいる設備となります。
+下の動画はよりSPMが早いブランキング材の自動積み込み基礎評価のトライ動画となります。
+This system at the Kota Plant automatically loads hot-stamped parts onto pallets. 
+The video below shows a basic evaluation trial for the automated loading of blanking materials, which are processed at a higher production speed, or SPM.
+
+ヒューマノイドロボット（ルールベースによるTP箱仕分け/運搬動作
+
+ヒューマノイドはまだまだ効果で量産でも投資対効果は望めませんが成長も著しい技術となってます。
+将来を見据えて、TP箱の仕分けを題材に技術検証中です。
+現在の実力値１２０秒に１個の仕分け
+成功率９０％程度ですが、
+最近はやりのフィジカルAIを導入することによりロバスト性があがるか検証段階です。
+
+Humanoid robots are still expensive, making it difficult to achieve a sufficient return on investment in mass production. However, the technology is advancing rapidly. With future applications in mind, we are currently evaluating the technology through a trial involving the sorting of TP boxes. At present, the robot can sort one box every 120 seconds, with a success rate of approximately 90%. We are now testing whether the introduction of physical AI can improve the system’s robustness.
+
+
+4足ロボット（ 巡回システム)
+Four-Legged Robot (Automated Patrol System)
+
+４足歩行ロボットで定期チェック、巡回を想定し、技術検証してます。
+事前に工場をマッピングしておく、経路をあらかじめ設定することによって自動で決められた経路を歩き、その画像を見ることができます。
+
+その他の紹介技術としてタブレットの遠隔操作の技術や遠隔操作時に必要となる人体犬種出技術なども開発しえｔます。
+We are also developing other technologies,
+including tablet-based remote operation and human-detection technology to help ensure safety during remote operation.
+
+
+
+スマートファクトリー部は
+・ロボットの自動経路生成
+・AI外観検査
+・AMR運行管理システム
+を３本の柱として取り組みを進めていきます。
+
+Moving forward, 
+the Smart Factory Department will focus on three key areas: 
+automatic robot path generation, 
+AI-based visual inspection, 
+and AMR fleet management.
+
+
+

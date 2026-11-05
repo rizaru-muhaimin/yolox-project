@@ -121,3 +121,85 @@ Lakukan pengecekan dengan metode tunjuk dan sebut (Pointing & Calling).
 
 労災の防止、健康経営の実践
 私たちは職場やともに働く仲間の安全・衛生の確保を最優先し、日頃から自らの心身の健康増進に努めます。
+
+スマファク技術一覧表	Smart Factory Technology Overview
+トライ検証中	Under Trial and Validation
+開発完了	Development Completed
+量産	Mass Production
+
+
+Kategori
+Bahasa Jepang	Bahasa Inggris
+生産準備	Production Preparation
+プレス	Press Operations
+組立作業	Assembly Operations
+設備	Equipment Technologies
+品質検査	Quality Inspection
+物流	Logistics
+
+
+生産準備 — Production Preparation
+Bahasa Jepang	Bahasa Inggris
+3D計測／Poly検査法	3D Measurement / Poly Inspection Method
+電気シミュレーション	Electrical Simulation
+AR（拡張現実）	AR (Augmented Reality)
+
+
+プレス — Press Operations
+Bahasa Jepang	Bahasa Inggris
+ホットスタンプ自動積込み	Automated Hot-Stamp Part Loading
+ブランク自動積込み	Automated Blank Loading
+TRプレス自動積込み	Automated TR Press Loading
+材料投入自働化	Automated Material Feeding
+
+
+組立作業 — Assembly Operations
+Bahasa Jepang	Bahasa Inggris
+完成品自動積込み	Automated Finished-Part Loading
+無人ナット付け	Automated Nut Installation
+協働ロボット自動組付け	Automated Assembly Using Collaborative Robots
+ピック＆プレースロボット	Pick-and-Place Robot
+New 人型ロボット	New: Humanoid Robot
+
+
+設備 — Equipment Technologies
+Bahasa Jepang	Bahasa Inggris
+操作盤タブレット化	Tablet-Based Control Panel
+センサーレス化	Sensorless Technology
+3台協調ロボット工程集約	Process Integration Using Three Coordinated Robots
+LSW工程	LSW Process
+New 4足歩行ロボット	New: Quadruped Robot
+
+
+品質検査 — Quality Inspection
+Bahasa Jepang	Bahasa Inggris
+溶接統合管理システム（スパッター）	Integrated Welding Management System (Spatter Detection)
+溶接統合管理システム（溶接品質）	Integrated Welding Management System (Weld Quality)
+IPR自動検査システム	IPR Automated Inspection System
+3D自動測定	Automated 3D Measurement
+AI画像検査	AI-Based Visual Inspection
+加工点保証（レーザー）	In-Process Quality Assurance (Laser Welding)
+
+
+物流 — Logistics
+Bahasa Jepang	Bahasa Inggris
+AMR運行管理システム	AMR Fleet Management System
+自動パレ・デパレ	Automated Palletizing and Depalletizing
+AGF自動搬送	Automated Transport Using AGFs
+New 人型ロボット	New: Humanoid Robot
+高密度保管倉庫	High-Density Storage Warehouse
+
+
+CN/CE
+Bahasa Jepang	Bahasa Inggris
+省配線	Reduced Wiring
+電動化治具	Electrically Operated Fixture
+
+働き方改革	Workstyle Reform
+安全	Safety
+人にやさしい	People-Friendly
+チャレンジ	Challenge
+やりがい	Job Fulfillment
+安心・信頼	Peace of Mind and Trust
+社会貢献	Contribution to Society
+環境保護	Environmental Protection
