@@ -203,3 +203,71 @@ Bahasa Jepang	Bahasa Inggris
 安心・信頼	Peace of Mind and Trust
 社会貢献	Contribution to Society
 環境保護	Environmental Protection
+
+
+Unmanned / Labor-Saving
+Automated Box Loading and Unloading
+TP Box Palletizing / Depalletizing Automation System
+Build a TP box picking system using a 3D camera
+and robot
+
+Create box-type identification logic
+[Current State]
+Forklift 
+operation
+Outdoor temporary 
+storage (mixed)
+Forklift 
+operation
+indoor temporary 
+storage (mixed)
+Manual 
+operation
+Replace manual work with robot operation
+
+Continuous handling of TP 
+boxes weighing about 10 kg
+Parts storage
+
+[Result]
+Manual 
+operation
+Replace manual work with robot operation
+Create box-type identification logic using a 3D camera
+Challenge 1: Mixed box sizes require recognition of length, width, and height to identify each box type
+Box-type identification by 2D pattern matching
+After 2D identification, use height differences to
+identify the box type
+
+TP331 is 
+incorrectly 
+identified as 
+TP332
+
+Boxes on lower 
+levels are also 
+detected
+
+Ignore TP boxes 
+on lower layers
+
+Challenge 2: Pick TP boxes from the top layer
+For top-down picking, detect only the top layer
+
+Challenge 3: Picking orientation is inconsistent
+Align randomly oriented TP boxes to 
+a consistent coordinate direction
+
+
+Align randomly oriented TP boxes to 
+a consistent coordinate direction
+
+Orientation is 
+inconsistent
+
+Orientation is 
+consistent
+
+Automate heavy and repetitive work
+Future
+Plans Refine the system for implementation
