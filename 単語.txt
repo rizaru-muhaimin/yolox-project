@@ -271,3 +271,59 @@ consistent
 Automate heavy and repetitive work
 Future
 Plans Refine the system for implementation
+
+
+Automation / Labor Saving /
+Cost Reduction
+Logistics Automation
+Theme In-house Capability Development for AMR Systems
+Issue 
+Build in-house capability at each plant for AMR
+deployment, operation, and continuous improvement.
+Counter
+measure
+Enable each plant to acquire know-how through the
+deployment of an in-house parts transportation system
+
+
+In-house Parts Transportation System
+Assembly Line
+Control PC
+Server
+内製
+WCS
+PLC
+Middleware
+PLC
+内製
+Pallet Supply Schedule Entry Screen
+Over
+view
+・Reduced Development Costs Through In-house Development
+Estimated: JPY 15 Million
+・Layout Changes and Additions Can Be Implemented In-house
+AMR Dojo
+RCS
+内製
+Forklift Operator Screen
+内製
+AMR Operations 
+Monitoring Screen
+Improvement Items
+AMR Operation and Maintenance Training
+IT Skills Training
+(Programming & Databases)
+保守写真
+Developed by Chiryu Plant
+【AMR Activity Monitor】、【System Stopped】
+Ability to Retrieve Data from Databases and Develop User Interfaces
+
+Good
+Point
+Future
+Plans
+Reduced Development Costs and Self-Sustaining Continuous
+Improvement Through In-house Development
+Expand and Strengthen IT Skills Across Plants
+Develop a Vendor-independent AMR Platform
+Compatible with Multiple AMR Models
