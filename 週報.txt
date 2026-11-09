@@ -1,99 +1,104 @@
-10/26
+11/2
 Pagi:
-Melanjutkan penanganan error serta proses pembuatan file EXE dan installer untuk aplikasi desktop.
+Melajutkan pembuatan desain halaman anotation dataset dari proses pembuatan project, upload gambar, anotasi sampai menjadi dataset.
 
 Siang:
-Melanjutkan pekerjaan sebelumnya dan menambahkan beberapa library yang belum tersedia pada aplikasi.
-10/27
+Melajutkan pembuatan desain halaman anotation dataset dari proses pembuatan project, upload gambar, anotasi sampai menjadi dataset.
+
+
+11/3
 Pagi:
-Membuat model AI final untuk robot menggunakan data terbaru. Setelah itu, menguji library kamera pada aplikasi desktop yang telah diubah menjadi file EXE. Selain itu, mengikuti rapat kemajuan pekerjaan bersama tim.
+Melajutkan pembuatan desain halaman anotation dataset dari proses pembuatan project, upload gambar, anotasi sampai menjadi dataset. dan mengikuti rapat progress bersama tim.
 
 Siang:
-Melanjutkan pekerjaan sebelumnya.
-10/28
+Melajutkan pekerjaan sebelumnya dan mendapatkan pekerjaan tambahan untuk menerjemahkan dokumen presentasi dari bahasa jepang ke bahasa inggris.
+
+11/4
 Pagi:
-Membuat versi terbaru file EXE dengan menambahkan modul pembuatan model AI yang sebelumnya belum disertakan. Setelah itu, melakukan pengujian terhadap versi terbaru aplikasi. Selain itu, mengikuti pengujian robot dan model AI yang saya buat di pabrik sebagai persiapan untuk pameran (tenjikai).
+Mengikuti proses tenjikai dan menjadi bagian yang bertangung jawab menjelasakan kyodo robotto dan aplikasi pendetekasi OK NG sebuah product
 
 Siang:
-Melanjutkan pekerjaan sebelumnya dan melakukan pengujian terhadap kamera tele. Setelah itu, mulai melakukan penelitian tentang pembuatan fitur anotasi pada aplikasi desktop.
+Melajutkan pekerjaan menerjemahkan menerjemahkan dokumen presentasi dari bahasa jepang ke bahasa inggris. dan  mengikuti tenjikai.
 
-Selain itu, mempelajari cara agar aplikasi dapat diperbarui ke versi terbaru. Aplikasi perlu segera digunakan meskipun beberapa fitur masih dalam tahap pengembangan. Diharapkan pengguna dapat segera menerima informasi ketika versi terbaru aplikasi telah tersedia.
-10/29
+11/5
 Pagi:
-Melanjutkan penelitian sebelumnya mengenai desain fitur anotasi dan sistem pembaruan aplikasi.
+Melajutkan pekerjaan menerjemahkan menerjemahkan dokumen presentasi dari bahasa jepang ke bahasa inggris.
 
 Siang:
-Mengikuti rapat seksi (課会議) dan melaporkan pekerjaan yang telah dilakukan selama minggu ini. Setelah itu, mengikuti pemaparan informasi divisi di pabrik hingga waktu pulang kerja.
+Mengikuti tenjikai dan mencoba menjelaskan  kyodo robotto dan aplikasi pendetekasi OK NG sebuah product sebagai suatu sistem keseluruhan kepada pengunjung.
 
 Malam:
-Mengikuti kelas percakapan bahasa Jepang (kaiwa). Dalam kelas tersebut, saya menyampaikan pidato, saling bertukar kabar, serta berdiskusi mengenai perkembangan AI dan cara AI melakukan proses berpikir.
-10/30
+Mengikuti kelas percakapan bahasa Jepang (kaiwa) seperti biasa.
+
+11/6
 Pagi:
-Membuat kembali file EXE karena terdapat perbaikan fitur dari senior. Selain itu, melanjutkan penelitian mengenai fitur pembaruan aplikasi dan mulai membuat desain antarmuka pengguna untuk fitur anotasi.
+Mengikuti proses tenjikai dan menjadi bagian yang bertangung jawab menjelasakan kyodo robotto dan aplikasi pendetekasi OK NG sebuah product.
 
 Siang:
-Membuat sistem otomatisasi untuk menghasilkan file EXE. Dengan sistem tersebut, proses pembuatan file EXE dapat dilakukan melalui web tanpa harus mengakses laptop jarak jauh secara langsung.
+Mengikuti proses tenjikai dan menjadi bagian yang bertangung jawab menjelasakan kyodo robotto dan aplikasi pendetekasi OK NG sebuah product.
+
 所感（Kesan）
-Minggu ini terasa melelahkan dan cukup menguras tenaga karena terdapat banyak interaksi dan diskusi dengan senior. Meskipun demikian, berbagai pekerjaan dapat dilanjutkan dengan baik.
+Minggu ini cukup menearik dan belajar banyak karena ada tenjikai. terutama belajar memberanikan diri untuk menjelasakan dengan baik dan banar kepada pengunjung yang datang ke tempat saya. pengalaman yang cukup berkesan. di minggu ini juga banyak belajar kosakata baru karena harus menerjemahkan ppt dari bahasa jepang ke bahasa inggris. Melelahkan iyaa tapi cukup berkesan.
+
 来週の予定（Rencana minggu depan）
-Melanjutkan pembuatan desain antarmuka pengguna untuk fitur anotasi dan berfokus pada pelaksanaan pameran perusahaan (tenjikai).
+implementasi fitur anotetion sampai akhir bulan.
 その他（私生活についてや悩みなど）
-Minggu ini saya merasa sangat lelah. Oleh karena itu, saya menggunakan waktu pada hari Sabtu dan Minggu untuk beristirahat dan memulihkan energi. Selain itu, semuanya berjalan dengan baik.
+Minggu ini saya main ke nagoya  untuk melepas penat dan menikmati segelas copi di taman surumae. seneng bisa santai.
 
-
-10/26
-
-午前：
- デスクトップアプリ向けのEXEファイルおよびインストーラー作成作業を進めるとともに、発生しているエラーの対応を継続しました。
-
-午後：
- 前日の作業を継続し、アプリケーションに不足していたライブラリの追加対応を行いました。
-
-10/27
+11/2
 
 午前：
- 最新データを使用してロボット用の最終AIモデルを作成しました。その後、EXE化したデスクトップアプリ上でカメラライブラリの動作確認を行いました。また、チームメンバーとの進捗会議に参加しました。
+ プロジェクト作成、画像アップロード、アノテーション作業からデータセット作成までの一連の流れに対応するアノテーション機能画面の設計を継続しました。
 
 午後：
- 前日の作業を継続しました。
+ プロジェクト作成、画像アップロード、アノテーション作業からデータセット作成までの一連の流れに対応するアノテーション機能画面の設計を継続しました。
 
-10/28
+11/3
 
 午前：
- これまで含まれていなかったAIモデル作成モジュールを追加し、最新版のEXEファイルを作成しました。その後、最新版アプリケーションの動作確認を実施しました。また、展示会に向けた準備として、工場にてロボットおよび自作AIモデルのテストに参加しました。
+ プロジェクト作成、画像アップロード、アノテーション作業からデータセット作成までの一連の流れに対応するアノテーション機能画面の設計を継続しました。また、チームの進捗会議に参加しました。
 
 午後：
- 前日の作業を継続するとともに、Teleカメラの動作確認を実施しました。その後、デスクトップアプリ向けアノテーション機能の開発に関する調査を開始しました。
+ 前日の作業を継続しました。また、追加業務としてプレゼンテーション資料の日英翻訳作業を開始しました。
 
-また、アプリケーションのアップデート機能についても調査を進めました。現在開発中の機能が一部残っているものの、アプリを早期に利用開始できるようにし、新バージョン公開時にはユーザーへ速やかに通知できる仕組みについて検討しました。
-
-10/29
+11/4
 
 午前：
- アノテーション機能の設計およびアプリケーション更新システムに関する調査を継続しました。
+ 展示会に参加し、協働ロボットおよび製品のOK/NG判定を行う検査アプリケーションの説明担当として対応しました。
 
 午後：
- 課会議に参加し、今週実施した業務内容について報告しました。その後、終業時間まで工場での部門説明会に参加しました。
+ 展示会に参加するとともに、プレゼンテーション資料の日英翻訳作業を進めました。
+
+11/5
+
+午前：
+ プレゼンテーション資料の日英翻訳作業を継続しました。
+
+午後：
+ 展示会に参加し、協働ロボットと製品のOK/NG判定アプリケーションを含めたシステム全体について来場者へ説明しました。
 
 夜：
- 日本語会話教室に参加しました。教室ではスピーチや近況報告を行ったほか、AIの発展やAIの思考プロセスについて意見交換を行いました。
+ いつも通り日本語会話教室に参加しました。
 
-10/30
+11/6
 
 午前：
- 先輩による機能修正があったため、EXEファイルを再作成しました。また、アプリケーションのアップデート機能に関する調査を継続し、アノテーション機能のUI設計を開始しました。
+ 展示会に参加し、協働ロボットおよび製品のOK/NG判定アプリケーションの説明担当として対応しました。
 
 午後：
- EXEファイルを自動生成するためのシステムを構築しました。このシステムにより、リモートでノートPCへ直接接続することなく、Web上からEXEファイルを作成できるようになりました。
+ 展示会に参加し、協働ロボットおよび製品のOK/NG判定アプリケーションの説明担当として対応しました。
 
 所感
 
-今週は先輩方との打ち合わせや相談の機会が多く、やや疲れを感じる一週間でした。しかし、その中でも各業務を順調に進めることができました。
+今週は展示会があり、とても興味深く多くのことを学ぶことができました。特に、来場者の方々に対して内容を分かりやすく正確に説明する難しさと大切さを実感し、自分から積極的に説明する良い経験になりました。
+
+また、プレゼンテーション資料の日英翻訳業務を通じて、新しい英語や技術用語も多く学ぶことができました。疲れはありましたが、とても有意義で印象に残る一週間でした。
 
 来週の予定
 
-アノテーション機能のUI設計を継続するとともに、展示会対応を中心に業務を進める予定です。
+アノテーション機能の実装を進め、月末までに開発を完了させる予定です。
 
 その他（私生活についてや悩みなど）
 
-今週は非常に疲れを感じていたため、土日はゆっくり休養し、体力の回復に努めました。そのほかは特に問題なく、順調に過ごすことができました。
+今週は気分転換のために名古屋へ出かけ、鶴舞公園でコーヒーを飲みながらゆっくり過ごしました。久しぶりにリラックスすることができ、とても良い時間になりました。
+
