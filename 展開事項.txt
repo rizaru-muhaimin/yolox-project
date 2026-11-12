@@ -134,4 +134,294 @@ AI-based visual inspection,
 and AMR fleet management.
 
 
+Opening
+
+Good afternoon everyone.
+
+Today, I would like to introduce our humanoid robot pilot project.
+
+The theme of this project is autonomous transport of TP boxes using humanoid robots.
+
+The purpose is to evaluate feasibility in a real factory environment and identify technical challenges.
+
+Background
+
+Recently, many companies have been facing labor shortages.
+
+At the same time, AI technology is advancing very rapidly.
+
+Because of these changes, expectations for humanoid robots are increasing.
+
+However, the actual capabilities of humanoid robots are still unclear.
+
+Therefore, we started this pilot project to understand their potential and limitations.
+
+Pilot Overview
+
+This pilot focuses on TP box sorting and transport.
+
+The robot performs four basic actions.
+
+First, the robot recognizes the target box.
+
+Second, the robot grasps the box.
+
+Third, the robot moves to the destination.
+
+Finally, the robot places the box in the assigned location.
+
+In short, the workflow is:
+
+Recognize, Grasp, Move, and Place.
+
+Current Stage
+
+Currently, we are conducting rule-based testing.
+
+The robot follows predefined instructions.
+
+For example, it picks up a box from a specific location and carries it to a designated area.
+
+This approach is useful for basic verification.
+
+However, adapting to environmental changes is difficult.
+
+Next Step
+
+Our next step is VLA testing.
+
+VLA stands for Vision, Language, and Action.
+
+With VLA technology, the robot can understand images and language instructions.
+
+For example, a worker can say:
+
+"Move the yellow box to the storage area."
+
+The robot will interpret the instruction and perform the task.
+
+This technology can improve flexibility and adaptability.
+
+Future Plan
+
+According to our roadmap, we will continue evaluation and validation step by step.
+
+Our goal is to conduct process validation next fiscal year.
+
+We are aiming for practical application around fiscal year 2028.
+
+Conclusion
+
+In conclusion, this project helps us build technical expertise in humanoid robots.
+
+It also helps us evaluate future possibilities for factory automation.
+
+By learning from this pilot, we can prepare for future labor-saving solutions.
+
+Thank you for your attention.
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Opening
+
+Good afternoon everyone.
+
+Today, I would like to introduce our project on in-house capability development for AMR systems.
+
+The purpose of this project is to develop the knowledge and skills needed to deploy and operate AMR systems independently.
+
+Background
+
+Recently, many factories have started using AMRs to improve logistics efficiency.
+
+However, many plants still depend heavily on vendors for system development and maintenance.
+
+This dependency can increase costs and reduce flexibility.
+
+Therefore, we started this project to build in-house capability at each plant.
+
+Project Overview
+
+This project uses an in-house parts transportation system as a learning platform.
+
+The system includes assembly lines, control PCs, servers, WCS, and RCS.
+
+The system also includes operation screens and monitoring screens.
+
+These components work together to control AMR transportation.
+
+The goal is to help engineers understand the entire AMR system.
+
+Benefits of In-house Development
+
+One major benefit is cost reduction.
+
+By developing the system internally, we can reduce development expenses.
+
+The estimated cost reduction is approximately fifteen million yen.
+
+Another benefit is flexibility.
+
+If the factory layout changes, we can modify the system ourselves.
+
+As a result, we can respond more quickly to operational requirements.
+
+AMR Dojo
+
+We also established an AMR Dojo.
+
+The AMR Dojo provides operation and maintenance training.
+
+The AMR Dojo also provides IT, programming, and database training.
+
+These activities help engineers gain practical skills and experience.
+
+As a result, each plant can become more self-sufficient.
+
+Continuous Improvement
+
+We have already developed several improvement tools.
+
+For example, we developed an AMR activity monitoring system.
+
+We also developed tools for system status monitoring and database integration.
+
+These improvements were created internally by our engineering team.
+
+This demonstrates the value of developing in-house capabilities.
+
+Future Plan
+
+Going forward, we plan to expand these skills across all plants.
+
+We also aim to develop a vendor-independent AMR platform.
+
+In addition, we want the system to support multiple AMR models.
+
+Our target implementation timing is October 2027.
+
+Conclusion
+
+In conclusion, this project helps us build technical expertise in AMR systems.
+
+It reduces development costs and increases operational flexibility.
+
+Most importantly, it enables continuous improvement through in-house development.
+
+Thank you for your attention.
+
+\\\\\\\\\\\\\\\
+
+Opening
+
+Good afternoon everyone.
+
+Today, I would like to introduce our TP Box palletizing and depalletizing automation system.
+
+The purpose of this project is to automate TP Box handling by using a 3D camera and a robot.
+
+This project aims to reduce manual work and improve operational efficiency.
+
+Background
+
+Currently, TP Box handling requires manual operation.
+
+Forklift operators and workers are involved in transporting and organizing boxes.
+
+This work is repetitive and physically demanding.
+
+Therefore, we started this project to automate the process.
+
+Project Overview
+
+The system uses a 3D camera and a robot.
+
+The 3D camera detects the position and shape of TP boxes.
+
+The robot then picks and transports the identified box.
+
+To achieve stable operation, we developed box-type identification logic.
+
+This logic helps the robot identify and handle different types of TP boxes correctly.
+
+Challenge One
+
+The first challenge was mixed box sizes.
+
+Different TP boxes were stored together on the same pallet.
+
+Initially, the system used two-dimensional pattern matching.
+
+As a result, some boxes were incorrectly identified.
+
+For example, TP331 was sometimes recognized as TP332.
+
+To solve this issue, we added height information from the 3D camera.
+
+The system now uses length, width, and height for identification.
+
+As a result, identification accuracy improved significantly.
+
+Challenge Two
+
+The second challenge was top-layer picking.
+
+The 3D camera could detect not only the top layer but also lower layers.
+
+As a result, the robot could select an incorrect target.
+
+To solve this issue, we developed a filtering function.
+
+The system now ignores TP boxes located on lower layers.
+
+As a result, the robot only picks accessible boxes from the top layer.
+
+Challenge Three
+
+The third challenge was inconsistent box orientation.
+
+TP boxes were placed in different directions.
+
+This made robot operation unstable.
+
+To solve this issue, we standardized the box orientation.
+
+The system now aligns boxes to a common coordinate direction.
+
+As a result, picking operations became more consistent.
+
+Benefits
+
+This project provides several important benefits.
+
+First, it automates heavy and repetitive work.
+
+Second, it reduces the workload of operators.
+
+Third, it improves operational efficiency.
+
+Finally, it supports future labor-saving activities.
+
+Future Plan
+
+Our next step is to further improve system accuracy and stability.
+
+We will continue testing and optimization for practical use.
+
+Our target is implementation by fiscal year 2026.
+
+Conclusion
+
+In conclusion, this project demonstrates the feasibility of automated TP Box handling.
+
+The 3D camera improves box recognition accuracy.
+
+The robot reduces manual labor and repetitive work.
+
+This project is an important step toward smarter factory automation.
+
+Thank you for your attention.
+
+
 
