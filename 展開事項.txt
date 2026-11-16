@@ -510,5 +510,15 @@ The system reduces costs, improves flexibility, and supports company-wide AI ado
 
 Thank you for your attention.
 
+Visual Inspection Flow Builder
+
+Create and edit inspection workflows by connecting blocks. Each block represents an operation, such as image capture, AI detection, conditional branching, or saving results.
+- Clear workflow visualization — Easily understand the processing sequence and decision conditions.
+- Flexible configuration — Add or adjust blocks to suit different products and inspection requirements.
+- Integrated inspection process — Connect image capture, AI evaluation, OK/NG branching, and result storage.
+- Reusable workflows — Save and reload workflows to repeat the same inspection procedure.
+For your spoken presentation:
+“This feature lets users build inspection workflows visually by connecting blocks. For example, the system can capture an image, evaluate it using AI, branch based on the result, and save the inspection data. This makes inspection procedures easier to understand, modify, and reuse.”
+
 
 
