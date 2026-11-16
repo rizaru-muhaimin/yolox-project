@@ -1,104 +1,95 @@
-11/2
+11/9
 Pagi:
-Melajutkan pembuatan desain halaman anotation dataset dari proses pembuatan project, upload gambar, anotasi sampai menjadi dataset.
+Melanjutkan pengembangan fitur anotasi. Minggu ini, pekerjaan difokuskan pada pengembangan halaman pengunggahan gambar dan halaman kanvas anotasi.
 
 Siang:
-Melajutkan pembuatan desain halaman anotation dataset dari proses pembuatan project, upload gambar, anotasi sampai menjadi dataset.
-
-
-11/3
+Melanjutkan pengembangan fitur anotasi, khususnya halaman pengunggahan gambar dan halaman kanvas anotasi.
+11/10
 Pagi:
-Melajutkan pembuatan desain halaman anotation dataset dari proses pembuatan project, upload gambar, anotasi sampai menjadi dataset. dan mengikuti rapat progress bersama tim.
+Melanjutkan pengembangan fitur anotasi dengan berfokus pada halaman pengunggahan gambar dan halaman kanvas anotasi. Pengembangan halaman pengunggahan gambar cukup sulit karena harus mendukung berbagai metode, seperti memilih berkas, memilih folder, melakukan drag-and-drop gambar, dan membaca data gambar dari berkas JSON.
 
 Siang:
-Melajutkan pekerjaan sebelumnya dan mendapatkan pekerjaan tambahan untuk menerjemahkan dokumen presentasi dari bahasa jepang ke bahasa inggris.
-
-11/4
+Melanjutkan pekerjaan sebelumnya.
+11/11
 Pagi:
-Mengikuti proses tenjikai dan menjadi bagian yang bertangung jawab menjelasakan kyodo robotto dan aplikasi pendetekasi OK NG sebuah product
+Mulai mengembangkan halaman anotasi. Pekerjaan yang dilakukan meliputi menampilkan gambar, membuat kotak anotasi pada gambar, dan menambahkan nama kelas objek.
 
 Siang:
-Melajutkan pekerjaan menerjemahkan menerjemahkan dokumen presentasi dari bahasa jepang ke bahasa inggris. dan  mengikuti tenjikai.
-
-11/5
+Melanjutkan pekerjaan sebelumnya.
+11/12
 Pagi:
-Melajutkan pekerjaan menerjemahkan menerjemahkan dokumen presentasi dari bahasa jepang ke bahasa inggris.
+Melanjutkan pengembangan fungsi utama pada halaman anotasi. Beberapa fungsi yang ditambahkan meliputi memperbesar dan memperkecil tampilan gambar, mengganti gambar, mengubah nama kelas, serta menambahkan fungsi pendukung lainnya.
 
 Siang:
-Mengikuti tenjikai dan mencoba menjelaskan  kyodo robotto dan aplikasi pendetekasi OK NG sebuah product sebagai suatu sistem keseluruhan kepada pengunjung.
+Melanjutkan pekerjaan sebelumnya.
 
 Malam:
-Mengikuti kelas percakapan bahasa Jepang (kaiwa) seperti biasa.
-
-11/6
+Mengikuti kelas percakapan bahasa Jepang (kaiwa) seperti biasa. Dalam kelas tersebut, kami membahas pentingnya hōrensō (pelaporan, komunikasi, dan konsultasi) serta pentingnya menyampaikan informasi buruk terlebih dahulu dalam lingkungan kerja.
+11/13
 Pagi:
-Mengikuti proses tenjikai dan menjadi bagian yang bertangung jawab menjelasakan kyodo robotto dan aplikasi pendetekasi OK NG sebuah product.
+Menjalani pemeriksaan kesehatan (kenkō shindan).
 
 Siang:
-Mengikuti proses tenjikai dan menjadi bagian yang bertangung jawab menjelasakan kyodo robotto dan aplikasi pendetekasi OK NG sebuah product.
-
+Libur.
 所感（Kesan）
-Minggu ini cukup menearik dan belajar banyak karena ada tenjikai. terutama belajar memberanikan diri untuk menjelasakan dengan baik dan banar kepada pengunjung yang datang ke tempat saya. pengalaman yang cukup berkesan. di minggu ini juga banyak belajar kosakata baru karena harus menerjemahkan ppt dari bahasa jepang ke bahasa inggris. Melelahkan iyaa tapi cukup berkesan.
-
+Minggu ini terasa cukup melelahkan karena saya mulai mengembangkan fitur baru, khususnya fitur anotasi. Agar tidak merasa bosan dan terlalu lelah, terkadang saya berbincang atau berdiskusi dengan senior mengenai beberapa hal.
 来週の予定（Rencana minggu depan）
-implementasi fitur anotetion sampai akhir bulan.
+Melanjutkan pengembangan fitur anotasi dan menargetkan penyelesaiannya pada akhir bulan.
 その他（私生活についてや悩みなど）
-Minggu ini saya main ke nagoya  untuk melepas penat dan menikmati segelas copi di taman surumae. seneng bisa santai.
+Tidak ada hal khusus yang ingin saya sampaikan. Minggu ini, saya menggunakan sebagian besar waktu luang untuk tidur dan beristirahat.
 
-11/2
 
-午前：
- プロジェクト作成、画像アップロード、アノテーション作業からデータセット作成までの一連の流れに対応するアノテーション機能画面の設計を継続しました。
-
-午後：
- プロジェクト作成、画像アップロード、アノテーション作業からデータセット作成までの一連の流れに対応するアノテーション機能画面の設計を継続しました。
-
-11/3
+11/9
 
 午前：
- プロジェクト作成、画像アップロード、アノテーション作業からデータセット作成までの一連の流れに対応するアノテーション機能画面の設計を継続しました。また、チームの進捗会議に参加しました。
+ アノテーション機能の開発を継続しました。今週は主に画像アップロード画面およびアノテーションキャンバス画面の開発を進めています。
 
 午後：
- 前日の作業を継続しました。また、追加業務としてプレゼンテーション資料の日英翻訳作業を開始しました。
+ 引き続き、画像アップロード画面およびアノテーションキャンバス画面の開発を行いました。
 
-11/4
+11/10
 
 午前：
- 展示会に参加し、協働ロボットおよび製品のOK/NG判定を行う検査アプリケーションの説明担当として対応しました。
+ アノテーション機能の開発を継続しました。主に画像アップロード画面およびアノテーションキャンバス画面の開発を進めています。画像アップロード画面では、ファイル選択、フォルダ選択、画像のドラッグ＆ドロップ、JSONファイルからの画像データ読み込みなど、複数のアップロード方法に対応する必要があり、実装に苦労しました。
 
 午後：
- 展示会に参加するとともに、プレゼンテーション資料の日英翻訳作業を進めました。
+ 引き続き、同作業を進めました。
 
-11/5
+11/11
 
 午前：
- プレゼンテーション資料の日英翻訳作業を継続しました。
+ アノテーション画面の開発を開始しました。画像の表示、画像上へのアノテーション枠の作成、およびオブジェクトクラス名の設定機能を実装しました。
 
 午後：
- 展示会に参加し、協働ロボットと製品のOK/NG判定アプリケーションを含めたシステム全体について来場者へ説明しました。
+ 引き続き、同作業を進めました。
+
+11/12
+
+午前：
+ アノテーション画面の主要機能の開発を継続しました。画像の拡大・縮小、画像の切り替え、クラス名の変更機能に加え、その他の補助機能も実装しました。
+
+午後：
+ 引き続き、同作業を進めました。
 
 夜：
- いつも通り日本語会話教室に参加しました。
+ いつも通り日本語会話（会話レッスン）に参加しました。レッスンでは、報連相（報告・連絡・相談）の重要性や、職場では悪い情報ほど早く共有することの大切さについて学びました。
 
-11/6
+11/13
 
 午前：
- 展示会に参加し、協働ロボットおよび製品のOK/NG判定アプリケーションの説明担当として対応しました。
+ 健康診断を受診しました。
 
 午後：
- 展示会に参加し、協働ロボットおよび製品のOK/NG判定アプリケーションの説明担当として対応しました。
+ 休暇を取得しました。
 
 所感
 
-今週は展示会があり、とても興味深く多くのことを学ぶことができました。特に、来場者の方々に対して内容を分かりやすく正確に説明する難しさと大切さを実感し、自分から積極的に説明する良い経験になりました。
-
-また、プレゼンテーション資料の日英翻訳業務を通じて、新しい英語や技術用語も多く学ぶことができました。疲れはありましたが、とても有意義で印象に残る一週間でした。
+今週は新機能であるアノテーション機能の開発を開始したため、比較的忙しく感じました。気分転換や疲労軽減のため、時々先輩社員と雑談や業務に関する相談を行いながら作業を進めました。
 
 来週の予定
 
-アノテーション機能の実装を進め、月末までに開発を完了させる予定です。
+アノテーション機能の開発を継続し、月末までの完成を目標として進めます。
 
 その他（私生活についてや悩みなど）
 
-今週は気分転換のために名古屋へ出かけ、鶴舞公園でコーヒーを飲みながらゆっくり過ごしました。久しぶりにリラックスすることができ、とても良い時間になりました。
-
+特にありません。今週は空き時間のほとんどを睡眠や休息に充て、体調管理を優先して過ごしました。
