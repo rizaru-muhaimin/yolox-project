@@ -424,4 +424,91 @@ This project is an important step toward smarter factory automation.
 Thank you for your attention.
 
 
+yyyyyy
+
+Opening
+
+Good afternoon everyone.
+
+Today, I would like to introduce FutAiCa, our in-house developed AI visual inspection application.
+
+This project aims to improve quality inspection through AI technology while developing digital talent within the company.
+
+Background
+
+Many companies are interested in AI visual inspection.
+
+However, implementing commercial AI solutions can be expensive.
+
+In addition, companies often depend on vendors for technical support and development.
+
+As a result, internal technical knowledge does not always grow.
+
+To solve these issues, we developed FutAiCa.
+
+What is FutAiCa?
+
+FutAiCa stands for Futaba, AI, and Camera.
+
+It is an AI-based visual inspection application developed internally.
+
+The system uses a camera to capture product images.
+
+The images are analyzed by AI.
+
+The AI then determines whether the product is OK or NG.
+
+This process enables automatic quality inspection.
+
+Benefits of In-House Development
+
+There are four main benefits.
+
+First, we can accumulate AI knowledge and know-how inside the company.
+
+This helps engineers deepen their technical expertise.
+
+Second, we can develop new features quickly.
+
+We can respond to factory requirements without relying on external vendors.
+
+Third, we can reduce development and licensing costs.
+
+This makes AI implementation more cost-effective.
+
+Fourth, we can solve problems more quickly.
+
+When issues occur, our internal team can investigate and respond immediately.
+
+Digital Talent Development
+
+Another important objective is digital talent development.
+
+We provide training and support for application deployment.
+
+We encourage employees to learn AI technologies through practical experience.
+
+This helps create people who can drive continuous improvement at production sites.
+
+As a result, digital capabilities can expand across multiple plants.
+
+Future Plan
+
+Moving forward, we plan to deploy FutAiCa on a larger scale.
+
+We will collect user feedback and continuously improve the application.
+
+Our goal is to integrate the system into mass production environments from October 2026.
+
+Conclusion
+
+In conclusion, FutAiCa is more than an AI inspection tool.
+
+It is a platform for building technical knowledge and developing digital talent.
+
+The system reduces costs, improves flexibility, and supports company-wide AI adoption.
+
+Thank you for your attention.
+
+
 
