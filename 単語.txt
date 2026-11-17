@@ -327,3 +327,6 @@ Improvement Through In-house Development
 Expand and Strengthen IT Skills Across Plants
 Develop a Vendor-independent AMR Platform
 Compatible with Multiple AMR Models
+
+
+https://www.figma.com/design/G9FIpCTCJiEnIySySE1Nmd/Untitled?node-id=0-1&t=jTpwwXmJrpBTOXZI-1
