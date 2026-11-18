@@ -330,3 +330,14 @@ Compatible with Multiple AMR Models
 
 
 https://www.figma.com/design/G9FIpCTCJiEnIySySE1Nmd/Untitled?node-id=0-1&t=jTpwwXmJrpBTOXZI-1
+
+1.YOLOによる物体検出・判定機能の紹介
+2.データセットの準備
+3.AIモデル作成の流れ
+4.データセット選択
+5.学習設定
+6.学習の進捗と評価結果の確認
+7.動作テストとモデル保存
+8.保存済みモデルの読み込み
+9.AIモデルの動作確認 ― 画像テスト
+10..AIモデルの動作確認 ―動画・カメラテスト
