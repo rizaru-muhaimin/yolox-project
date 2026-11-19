@@ -341,3 +341,6 @@ https://www.figma.com/design/G9FIpCTCJiEnIySySE1Nmd/Untitled?node-id=0-1&t=jTpww
 8.保存済みモデルの読み込み
 9.AIモデルの動作確認 ― 画像テスト
 10..AIモデルの動作確認 ―動画・カメラテスト
+11。検査フローの作成と物体検出の設定
+12.物体検出結果の保存設定
+13. 検査フローの実行と判定結果の確認
