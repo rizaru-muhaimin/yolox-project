@@ -1,95 +1,62 @@
-11/9
-Pagi:
-Melanjutkan pengembangan fitur anotasi. Minggu ini, pekerjaan difokuskan pada pengembangan halaman pengunggahan gambar dan halaman kanvas anotasi.
+11/16
 
-Siang:
-Melanjutkan pengembangan fitur anotasi, khususnya halaman pengunggahan gambar dan halaman kanvas anotasi.
-11/10
-Pagi:
-Melanjutkan pengembangan fitur anotasi dengan berfokus pada halaman pengunggahan gambar dan halaman kanvas anotasi. Pengembangan halaman pengunggahan gambar cukup sulit karena harus mendukung berbagai metode, seperti memilih berkas, memilih folder, melakukan drag-and-drop gambar, dan membaca data gambar dari berkas JSON.
+午前:
+ アノテーションプロジェクト作成機能および画像アップロード機能の開発を継続しました。
 
-Siang:
-Melanjutkan pekerjaan sebelumnya.
-11/11
-Pagi:
-Mulai mengembangkan halaman anotasi. Pekerjaan yang dilakukan meliputi menampilkan gambar, membuat kotak anotasi pada gambar, dan menambahkan nama kelas objek.
+午後:
+ 画像アップロード機能の開発を継続しました。
 
-Siang:
-Melanjutkan pekerjaan sebelumnya.
-11/12
-Pagi:
-Melanjutkan pengembangan fungsi utama pada halaman anotasi. Beberapa fungsi yang ditambahkan meliputi memperbesar dan memperkecil tampilan gambar, mengganti gambar, mengubah nama kelas, serta menambahkan fungsi pendukung lainnya.
+11/17
 
-Siang:
-Melanjutkan pekerjaan sebelumnya.
+午前:
+ 画像アップロード機能の開発を継続するとともに、メイン機能であるアノテーション機能の開発に着手しました。
+ また、チーム内の進捗会議に参加し、アプリケーション開発の進捗状況を報告しました。
 
-Malam:
-Mengikuti kelas percakapan bahasa Jepang (kaiwa) seperti biasa. Dalam kelas tersebut, kami membahas pentingnya hōrensō (pelaporan, komunikasi, dan konsultasi) serta pentingnya menyampaikan informasi buruk terlebih dahulu dalam lingkungan kerja.
-11/13
-Pagi:
-Menjalani pemeriksaan kesehatan (kenkō shindan).
+午後:
+ 引き続き、前述の開発作業を行いました。
 
-Siang:
-Libur.
-所感（Kesan）
-Minggu ini terasa cukup melelahkan karena saya mulai mengembangkan fitur baru, khususnya fitur anotasi. Agar tidak merasa bosan dan terlalu lelah, terkadang saya berbincang atau berdiskusi dengan senior mengenai beberapa hal.
-来週の予定（Rencana minggu depan）
-Melanjutkan pengembangan fitur anotasi dan menargetkan penyelesaiannya pada akhir bulan.
-その他（私生活についてや悩みなど）
-Tidak ada hal khusus yang ingin saya sampaikan. Minggu ini, saya menggunakan sebagian besar waktu luang untuk tidur dan beristirahat.
+11/18
 
+午前:
+ アノテーション機能の開発を継続し、主にバウンディングボックス作成機能および画像へのラベル付け機能を実装しました。
 
-11/9
+午後:
+ アノテーション機能を中心にアプリケーション開発を継続しました。
 
-午前：
- アノテーション機能の開発を継続しました。今週は主に画像アップロード画面およびアノテーションキャンバス画面の開発を進めています。
+夜:
+ 通常どおり日本語会話（会話）の授業に参加しました。授業ではスピーチを行った後、会話練習や職場でよく使われる重要な語彙について学習しました。
 
-午後：
- 引き続き、画像アップロード画面およびアノテーションキャンバス画面の開発を行いました。
+11/19
 
-11/10
+午前:
+ アノテーション機能を中心としたアプリケーション開発を継続し、特にオブジェクトクラスの追加・編集・削除機能を実装しました。
 
-午前：
- アノテーション機能の開発を継続しました。主に画像アップロード画面およびアノテーションキャンバス画面の開発を進めています。画像アップロード画面では、ファイル選択、フォルダ選択、画像のドラッグ＆ドロップ、JSONファイルからの画像データ読み込みなど、複数のアップロード方法に対応する必要があり、実装に苦労しました。
+午後:
+ 以前開発したアプリケーションのAIモデル作成機能に関する説明資料を作成しました。
+ また、課会議に参加し、会議終了後も引き続き資料作成を行いました。
 
-午後：
- 引き続き、同作業を進めました。
+夜:
+ 通常どおり日本語会話（会話）の授業に参加しました。授業ではスピーチを行った後、会話練習や職場でよく使われる重要な語彙について学習しました。
 
-11/11
+11/20
 
-午前：
- アノテーション画面の開発を開始しました。画像の表示、画像上へのアノテーション枠の作成、およびオブジェクトクラス名の設定機能を実装しました。
+午前:
+ 以前開発したアプリケーションのAIモデル作成機能に関する説明資料の作成を継続しました。
 
-午後：
- 引き続き、同作業を進めました。
-
-11/12
-
-午前：
- アノテーション画面の主要機能の開発を継続しました。画像の拡大・縮小、画像の切り替え、クラス名の変更機能に加え、その他の補助機能も実装しました。
-
-午後：
- 引き続き、同作業を進めました。
-
-夜：
- いつも通り日本語会話（会話レッスン）に参加しました。レッスンでは、報連相（報告・連絡・相談）の重要性や、職場では悪い情報ほど早く共有することの大切さについて学びました。
-
-11/13
-
-午前：
- 健康診断を受診しました。
-
-午後：
- 休暇を取得しました。
-
-所感
-
-今週は新機能であるアノテーション機能の開発を開始したため、比較的忙しく感じました。気分転換や疲労軽減のため、時々先輩社員と雑談や業務に関する相談を行いながら作業を進めました。
+午後:
+ 新しいバージョンや機能改修が提供された際にアプリケーションを更新できるよう、Windowsアプリケーションのアップデート機能を開発しました。
 
 来週の予定
 
-アノテーション機能の開発を継続し、月末までの完成を目標として進めます。
+アノテーション機能およびアプリケーションのアップデート機能の開発を継続します。
+ また、AIモデル作成機能に関する説明資料の作成も引き続き進める予定です。
 
-その他（私生活についてや悩みなど）
+所感
 
-特にありません。今週は空き時間のほとんどを睡眠や休息に充て、体調管理を優先して過ごしました。
+今週は、並行して開発を進める必要のある機能が2件あり、さらに作成しなければならない資料もあったため、比較的忙しい一週間でした。
+ 疲れを感じることもありましたが、その分多くの新しい語彙を学ぶことができました。
+ 一方で、学んだ語彙を復習し、記憶に定着させるための時間を十分に確保できなかったことが課題だと感じています。
+
+その他
+
+現在のところ特に問題はなく、その他に報告事項もありません。
